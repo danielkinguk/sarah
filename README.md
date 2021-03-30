@@ -12,3 +12,10 @@ Please use this section to include the title, a short description, and a link fo
 
 ## Research Papers
 Please use this section to provide the title, abstract, and a link for relevant research papers
+
+## IETF and IRTF Internet-Drafts
+Please use this section to provide the title and a link for relevant Internet-Drafts
+
+* draft-king-irtf-challenges-in-routing
+  * Challenges for the Internet Routing Infrastructure Introduced by Changes in Address Semantics
+  * https://datatracker.ietf.org/doc/draft-king-irtf-challenges-in-routing/
