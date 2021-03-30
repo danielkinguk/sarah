@@ -1,5 +1,6 @@
 # Semantic Address Routing and Hardware - SARAH
 
+## Introduction
 
 ## Mailing list
 Please subscribe to and participate on the SARAH mailing list.
