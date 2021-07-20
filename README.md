@@ -18,7 +18,7 @@ Please use this section to provide the title and a link for relevant Internet-Dr
 Challenges for the Internet Routing Infrastructure Introduced by Changes in Address Semantics
 * https://datatracker.ietf.org/doc/draft-king-irtf-challenges-in-routing/
 
-A Survey of Semantic Internet Routing Technique
+A Survey of Semantic Internet Routing Techniques
 * https://datatracker.ietf.org/doc/html/draft-king-irtf-semantic-routing-survey
 
 Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report
