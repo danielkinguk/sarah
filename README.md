@@ -7,15 +7,18 @@ Historically, the meaning of an IP address has been to identify an interface on 
 Please subscribe to and participate on the SARAH mailing list.
 Sign-up via https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH where you can also see the list archive.
 
-## Upcoming Conferences
-Please use this section to include the title, a short description, and a link for relevant conferences
-
-## Research Papers
-Please use this section to provide the title, abstract, and a link for relevant research papers
+## Related Conferences and Workshops where SARAH has been discussed
+ICT 21 - Special Session 1: Re-thinking the Data & Forwarding Plane for 6G and More 
+IEEE HPSR 21 - Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report
+IETF 111 - Routing Research Challenges Arising from Evolving Beyond and Revitalizing the Internet
 
 ## IETF and IRTF Internet-Drafts
 Please use this section to provide the title and a link for relevant Internet-Drafts
 
 * draft-king-irtf-challenges-in-routing
-  * Challenges for the Internet Routing Infrastructure Introduced by Changes in Address Semantics
-  * https://datatracker.ietf.org/doc/draft-king-irtf-challenges-in-routing/
+* Challenges for the Internet Routing Infrastructure Introduced by Changes in Address Semantics
+* https://datatracker.ietf.org/doc/draft-king-irtf-challenges-in-routing/
+* A Survey of Semantic Internet Routing Technique
+* https://datatracker.ietf.org/doc/html/draft-king-irtf-semantic-routing-survey
+* Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report
+* https://datatracker.ietf.org/doc/html/draft-king-irtf-semantic-routing-survey
