@@ -1,0 +1,60 @@
+SARNET-21: Semantic Addressing and Routing for Future Networks
+Note: The schedule uses UTC+2 (Paris) time.
+
+ 
+09:00 – 09:10           SARNET Opening
+David Lou (Huawei Technologies, Germany)
+
+09:10 – 10:10           Keynote: The Routing Challenges for Future Networks
+Olivier Bonaventure (UC Louvain, Belgium)
+
+10:20 – 11:20           SARNET-TS1: Semantic Addressing
+Moderator: Rui Aguiar (University of Aveiro, Portugal)
+
+1: QoS-Enabled Semantic Routing for Industry 4.0 based on SDN and MOM Integration
+Authors: Paolo Bellavista, Mattia Fogli, Luca Foschini, Carlo Giannelli, Lorenzo Patera, Cesare Stefanelli
+
+2: Dyncast: Use Dynamic Anycast to Facilitate Service Semantics Embedded in IP address
+Authors: Yizhou Li, Zifa Han, Shuheng Gu, Guanhua Zhuang, Feng Li
+
+3: Virtual Data-Plane Addressing for SDN-based Space and Terrestrial Network Integration
+Authors: Gao Zheng, Ning Wang, Rahim Tafazolli, XinPeng Wei, Jinze Yang
+
+11:30 – 12:30            SARNET-TS2: Routing, Forwarding and Performance
+Moderator: Adrian Farrel (Old Dog Consulting, UK)
+
+4: A Vision to Software-Centric Cloud Native Network Functions: Achievements and Challenges
+Author: Ryota Kawashima
+
+5: Service-based Forwarding via Programmable Dataplanes
+Authors: René Glebke, Dirk Trossen, Ike Kunze, Zhe Lou, Jan Rüth, Mirko Stoffers and Klaus Wehrle
+
+6: Towards Real-Time Routing Optimization with Deep Reinforcement Learning: Open Challenges
+Authors: Paul Almasan, José Suárez-Varela, Bo Wu and Shihan Xiao, Pere Barlet-Ros and Albert Cabellos-Aparicio
+
+14:00 – 15:20           SARNET-TS3: Semantic Routing, Framework and Security
+Moderator: Mohamed Faten Zhani (ETS, Canada)
+
+7: Flexible Semantic-based Data Networking for IoT Domains
+Authors: Mays AL-Naday, Irene Macaluso
+
+8: Securing Named Data Networking routing using Decentralized Identifiers
+Authors: Nikos Fotiou, Yannis Thomas, Vasilios A. Siris, George Xylomenos and George C. Polyzos
+
+9: Private Routing in the Internet
+Authors: Francesco Tusa, David Griffin, Miguel Rio
+
+10: A Structured Approach to Routing in the Internet
+Authors: Nirmala Shenoy, Shreyas Chandraiah, Peter Willi
+
+15:30 – 16:50 Panel: Semantic Addressing and Routing Impact on Future Networks
+Moderator: Alex Galis (University College London, UK)
+
+Speakers:
+Christian Jacquenet (Orange, France)
+Rui Aguiar (University of Aveiro, Portugal)
+Adrian Farrel (Old Dog Consulting, UK)
+Mohamed Faten Zhani (ETS, Canada)
+
+16:50 – 17:00           SARNET Closing
+Alex Galis (University College London, UK)
