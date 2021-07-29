@@ -1,0 +1,128 @@
+﻿07/28/2021    19:00:37 PM    from Antoine Fressancourt to Everyone:  8 people on Youtube, I will share the eventual chat messages there on this thread
+07/28/2021    19:01:01 PM    from Carsten Bormann to Everyone:  Recording?
+07/28/2021    19:02:06 PM    from Daniel King LANCS to Everyone:        Minutes/Notes: https://etherpad.wikimedia.org/p/routing-research-revitalizing-Internet-28-07-21
+07/28/2021    19:02:42 PM    from Daniel King LANCS to Everyone:        YouTube Live Stream: https://youtu.be/xMoaj4w3R6k
+07/28/2021    19:15:53 PM    from Linda Dunbar to Everyone:     are those service nodes same as today's router?
+07/28/2021    19:16:13 PM    from Linda Dunbar to Everyone:     processing forwarding, payload, ...
+07/28/2021    19:16:27 PM    from cedric.westphal@futurewei.com cedric.westphal@futurewei.com to Everyone:      Who can deploy these software modules? Can I run my own modules?
+07/28/2021    19:16:30 PM    from Aaron Falk to Everyone:       seems more like NFV
+07/28/2021    19:17:33 PM    from Linda Dunbar to Everyone:     like Virtual routers ?
+07/28/2021    19:17:49 PM    from Aaron Falk to Everyone:       well, except this isn't routing
+07/28/2021    19:17:58 PM    from Dirk Kutscher to Everyone:    @Aaron, I take it as NFV would rather be on the level of possible implementation approaches.
+07/28/2021    19:18:13 PM    from Aaron Falk to Everyone:       @dirk sure
+07/28/2021    19:18:50 PM    from cedric.westphal@futurewei.com cedric.westphal@futurewei.com to Everyone:      @aaron: I guess the overlay could perform routing. One example is load balancing
+07/28/2021    19:18:54 PM    from Alia Atlas to Everyone:       wondering about liveness and routing between the SN
+07/28/2021    19:19:32 PM    from Dirk Trossen to Everyone:     Q to Scott: Rationalizing today's POP model is nice but said POP model is inherently limited (in vertical scale) by economic power. But how does EI really enable extensibility along the long tail or will it just again be limited to few economic players?
+07/28/2021    19:19:43 PM    from Aaron Falk to Everyone:       @alia and statefullness
+07/28/2021    19:20:39 PM    from Roland Bless to Everyone:     Seems to be a slight refinement of Trotsky (Enabling Permanent Evolution in Internet Architecture), except that Trotsky Processors are now called service nodes?
+
+07/28/2021    19:20:43 PM    from Alia Atlas to Everyone:       @aaron - exactly - was about to add on statefulness
+07/28/2021    19:24:12 PM    from Alia Atlas to Everyone:       Having a more refined way of communicating into a cloud on different behaviors/usages on a per-packet basis might be interesting - but it has to be compelling from a business perspective and depend on the services.
+07/28/2021    19:25:56 PM    from Antoine Fressancourt to Everyone:     No message on the Youtube chat
+07/28/2021    19:26:13 PM    from Toerless Eckert Futurewei to Everyone:        Reminds me of the 1980th, where a common software platform was the key driver for the proliferation of the internet and development of the core distributed services on top of it.
+07/28/2021    19:26:34 PM    from Toerless Eckert Futurewei to Everyone:        Berkeley Unix and app examples like SMTP
+07/28/2021    19:27:36 PM    from Antoine Fressancourt to Everyone:     More recently, QUIC has benefitted from Chrome and Youtube's support at the same time, making 20%+ of web traffic immediately eligible to using QUIC
+07/28/2021    19:28:05 PM    from Dirk Kutscher to Everyone:    What would be the incentives for large incumbent WAN providers to enable this?
+07/28/2021    19:28:43 PM    from Toerless Eckert Futurewei to Everyone:        Public funding to build out very-close-to-the-edge compute infra
+07/28/2021    19:28:55 PM    from Antoine Fressancourt to Everyone:     @Dirk the easier deployment of added value services ?
+07/28/2021    19:28:55 PM    from Dirk Kutscher to Everyone:    (Not meant as a counter-argument, but I'd say a good answer would be needed.)
+07/28/2021    19:29:09 PM    from Dirk Kutscher to Everyone:    Not sure, public funding is convincing at all.
+07/28/2021    19:29:19 PM    from David Oran to Everyone:       Who chooses which edge service node is used by which hosts? Seems an interesting conundrum about who is empowered to do what? Does the host choose the whole path? Does the destination behind the destination service node choose the path? Does the edge ISP serving the user choose?
+07/28/2021    19:29:33 PM    from cedric.westphal@futurewei.com cedric.westphal@futurewei.com to Everyone:      Looking at gaming, building on top of IP doesn't give the better QoS that such an application would require, would it?
+07/28/2021    19:29:37 PM    from Jari Arkko to Everyone:       This is very interesting Scott. I had similar questions as Dirk T about the economics. Seems like this is potentially a shifting (or commoditizing as someone said) of some current service functions from the CDN and cloud world. I wonder what the forces are to make that happen...
+07/28/2021    19:30:36 PM    from Dirk Trossen to Everyone:     @DirkK: indeed, the economic incentives are hugely interesting here and I'm not sure there are good answers but potential for good research (I recall  some economic research being done for new research propositions like ICN)
+07/28/2021    19:31:02 PM    from Jari Arkko to Everyone:       I was also interested in the secure enclave angle -- have worked on that myself and while the current systems leave some things to be desired (lots of programming and some performance and scale limits) there's some hope that in a few years we'll be able to do this at much bigger scale. There's a lot of potential, e.g., for protecting user data against the $LARGEDATAGRABBINGENTITIES :-)
+07/28/2021    19:31:43 PM    from Daniel King LANCS to Everyone:        @Scott S - Feel free to respond to comments directly in the chat. We are also capturing comments into the minutes so if you are asking/responding, feel free to edit your thoughts directly in the Etherpad: https://etherpad.wikimedia.org/p/routing-research-revitalizing-Internet-28-07-21
+07/28/2021    19:32:07 PM    from Antoine Fressancourt to Everyone:     I also think security, privacy and compliance in that regard could be a driver for adoption of such technologies
+07/28/2021    19:33:09 PM    from Dirk Trossen to Everyone:     If EI could be positioned as 'democratizing service provisioning', regulatory intervention could shape the environment to build services in EI along the long tail (not just net neutrality but SL neutrality?)
+07/28/2021    19:33:21 PM    from Alia Atlas to Everyone:       I think there's a partial deployment and standardization play - where a service is sufficiently compelling and needed/useful for 2+ different entities.
+07/28/2021    19:33:55 PM    from Dirk Kutscher to Everyone:    @DirkT, yup, agree. OTOH, the incentives for access and edge network providers (telcos) might be better aligned -- lots of edge data center infrastructure that could benefit from a more general and sound approach for supporting new applications.
+07/28/2021    19:34:22 PM    from Antoine Fressancourt to Everyone:     Interestingly, in France the regulator tends to adopt a broad vision of neutrality, and it wants to encompass mobile platforms and app deployment ecosystem on those mobile platforms in its definition of "Net neutrality"
+07/28/2021    19:34:23 PM    from Alia Atlas to Everyone:       that wouldn't necessarily drive deployment immediately into the public Internet - but having gear that can do it - and standard ways of communicating - would take down one aspect of the challenge.
+07/28/2021    19:34:27 PM    from Hesham to Everyone:   @Scott Shenker -- How EI service architecture can be used by a host on the Internet to communicate with a device on a private network that does not use TCP/IP ?
+07/28/2021    19:34:47 PM    from Dirk Trossen to Everyone:     @DirkK, indeed, and lots of 'new applications' (digital twinning, automative, industrial, ...) are edge, so maybe this is the entry field for EI?
+07/28/2021    19:35:34 PM    from David Oran to Everyone:       Further specualtion... is there a role for 3rd parties like Conviva to factor the decisions about which Service paths are used for which users? It's really ugly that all those decisions today are done with ugly DNS tricks and/or overlay VPNs rather than natively with routing. I assume one of the goals of EI is to do a lot better than the current mass of glop for path selection/optimization?
+07/28/2021    19:36:42 PM    from Dirk Trossen to Everyone:     @DavidO: a service scheduling SN?
+07/28/2021    19:37:33 PM    from Michael Richardson to Everyone:       seems like interplanetary nodes have a lot in common with sleepy IoT nodes.
+07/28/2021    19:37:34 PM    from Eric Vyncke to Everyone:      "clock alignment" in an area where relativity may apply...
+07/28/2021    19:37:43 PM    from Mike McBride to Everyone:     Just mute everyone except the speaker please.
+07/28/2021    19:38:27 PM    from David Oran to Everyone:       @DirkT. No, a real 3rd party beholcden neiter to the edge ISP nor the cloud bakend servicing the application's provider.
+07/28/2021    19:38:53 PM    from Eric Vyncke to Everyone:      @mcr it seems so
+07/28/2021    19:39:13 PM    from Dirk Trossen to Everyone:     @DavidO isn't an SN meant to be 3rd party beyond edge/cloud?
+07/28/2021    19:39:59 PM    from cedric.westphal@futurewei.com cedric.westphal@futurewei.com to Everyone:      @Eric: relativity kicks in in our GPS communications already, and we seem to manage...
+07/28/2021    19:40:21 PM    from Eric Vyncke to Everyone:      @cedric so even more in interplanetary ;-)
+07/28/2021    19:40:22 PM    from David Oran to Everyone:       @DirkT: I hope not, since that gives them way too much power to engage in 2-way arbitrage of both ISP and cloud backend.
+07/28/2021    19:41:16 PM    from Michael Richardson to Everyone:       L2 => Lagrange Point 2 :-)
+07/28/2021    19:41:28 PM    from Eric Vyncke to Everyone:      ;-)
+07/28/2021    19:41:40 PM    from David Oran to Everyone:       @DirkT: Your model might work if there was enough competition among alternative SN operators, but getting that to emerge without eiterh economic or regulatory capture by the existing players seems really doubtful.
+07/28/2021    19:42:25 PM    from cedric.westphal@futurewei.com cedric.westphal@futurewei.com to Everyone:      @DaveO: I seem to be missing the point them. I thought it was to offer the features/services of a global-scale cloud (google, amazon, akamai, facebook) to everyone.
+07/28/2021    19:42:53 PM    from cedric.westphal@futurewei.com cedric.westphal@futurewei.com to Everyone:      from a party that is neither of these guys...
+07/28/2021    19:43:48 PM    from David Oran to Everyone:       Following up - given the current state of affairs, does anyone thing the regulatory structure would in fact mandate "open access" to POP and datacenter edge resources needed to create a level playing field. Seems much more likely that among Akamai, Google and one or two thers that they capture all the available POP capacity
+07/28/2021    19:44:14 PM    from tony.li to Everyone:  It's still routing, just with a temporal dimension.
+07/28/2021    19:44:18 PM    from Eric Vyncke to Everyone:      About Interplanetary routing, with the small amont of energy/power/acceleration the location/latency/QoS are quite predictable
+07/28/2021    19:44:44 PM    from Dirk Trossen to Everyone:     @DaveO: I was only observing that SN seems to be 3rd parties. How to establish the market that would give what you are looking for outside a typical monopoly situation is indeed a hugely interesting question. Hence my question on whether EI is really offering something that, in the end, is different from what we have today (in an economic sense)?
+07/28/2021    19:45:35 PM    from David Oran to Everyone:       @Cedric, then we're already done, since both Akamai and Google have enough footprint already.
+07/28/2021    19:46:10 PM    from Michael Richardson to Everyone:       BGP = > BorG Protocol.
+07/28/2021    19:47:00 PM    from David Oran to Everyone:       @Cedric, it would have to be a LOT cheaper for them to rent server capacity in edge POPs owned by ISPs they are trying to arbitrage out of existence than to provide their own dedicated infrastructure
+07/28/2021    19:47:05 PM    from cedric.westphal@futurewei.com cedric.westphal@futurewei.com to Everyone:      @DaveO: then I'm confused. My reading of the proposal is to extend the services outside of Google/Akamai and offer service innovation to others.
+07/28/2021    19:47:51 PM    from Michael Richardson to Everyone:       @Scott, are there commercial opportunities in Space based networks?
+07/28/2021    19:47:59 PM    from tony.li to Everyone:  @Richardson Resistance is futile.
+07/28/2021    19:48:25 PM    from Daniel King LANCS to Everyone:        @Scott B - How important will it be to have interoperable networking systems for interplanetary communication? Most of the current mesh LEO is proprietary, but other systems being planned with communicate with multiple layers (LEO and MEO), and potentially much lower orbit systems like UAVs.
+07/28/2021    19:48:33 PM    from David Oran to Everyone:       @Cedric - yes, that's one of the motivations. i suspect this will need heavy-handed regulation to bring into existence given the economic of POP rack space, power and cooling
+07/28/2021    19:48:57 PM    from Dirk Trossen to Everyone:     @DaveO & @cedric: the question may be whether outside the rationalization of today's POP model, EI does has the ambition to envision a different form to provisioning services, outside today's POP model (@DirkK mentioned  edge for some scenarios)
+07/28/2021    19:49:05 PM    from Aaron Falk to Everyone:       @oran - remember 3rd party DSL providers?
+07/28/2021    19:49:18 PM    from jim reid to Everyone: @ Michael, those Branson/Musk/Bezos chaps may well think so. :-)
+07/28/2021    19:49:36 PM    from David Oran to Everyone:       @Cedric - something akin to what the Europeans do in forcing the owners of phycsical networks to lease capacity at economically reasonable rates.
+07/28/2021    19:50:20 PM    from David Oran to Everyone:       @Aaron - exactly. How did that work out in the U.S. where the regulators didn't force the evolution of a stable market
+07/28/2021    19:50:31 PM    from Aaron Falk to Everyone:       yup
+07/28/2021    19:50:33 PM    from cedric.westphal@futurewei.com cedric.westphal@futurewei.com to Everyone:      @DaveO: layer 8 solutions, then...
+07/28/2021    19:50:54 PM    from Aaron Falk to Everyone:       @cedric - is that religion or politics?  I forget
+07/28/2021    19:51:10 PM    from Michael Richardson to Everyone:       @jim, but, the LEO clusters are all <100ms delay.  Is there a business case to develop space based DTN technology outside of NASA/ESA?  It's really interesting, but are there other places to leverage the same technology?
+07/28/2021    19:51:24 PM    from Michael Richardson to Everyone:       @jim I still like UUCP.
+07/28/2021    19:51:30 PM    from Dirk Trossen to Everyone:     @DaveO: complement 'net neutrality' by 'DC neutrality'?
+07/28/2021    19:52:08 PM    from Scott Burleigh to Everyone:   Daniel, good question.  We think the interconnection of communication resources belonging to multiple missions will reduce operational risk and improve data return, if done securely (which we think we can do).
+07/28/2021    19:52:33 PM    from Michael Richardson to Everyone:       entwinement... when quarks drink wine?
+07/28/2021    19:52:55 PM    from David Oran to Everyone:       @DirkT: not "DC neutrality", but "DC edge neutrality" might be needed. It's prety hopeless to ask cloud operators to not differentiate themselves by their datacenter special sauce.
+07/28/2021    19:53:25 PM    from Aaron Falk to Everyone:       @oran - sounds like urban development policy; zoning comissions
+07/28/2021    19:53:32 PM    from Daniel King LANCS to Everyone:        @Scott B - Thanks Scott! BTW we have few questions queued for you in minutes, you are welcome to share thoughts directly in minutes. https://etherpad.wikimedia.org/p/routing-research-revitalizing-Internet-28-07-21
+07/28/2021    19:54:12 PM    from Dirk Trossen to Everyone:     @DaveO in some  scenarios (and accompanying deployments), sharing of (edge) DC infrastructure may just be the way to go, similar to, e.g., RAN sharing in cellular world.
+07/28/2021    19:54:17 PM    from David Oran to Everyone:       @aaron, more like water/sewer, roads, power distribution than zoning/urban devp.
+07/28/2021    19:54:39 PM    from Toerless Eckert Futurewei to Everyone:        @aaron: look on last mile equal access policies and how consumer cost goes up when you don't have it (USA mono/duopoly situation).
+07/28/2021    19:58:22 PM    from Philip Eardley to Everyone:   neutrality of access to EI / enhanced routing? seems a difficult argument to me
+07/28/2021    19:59:23 PM    from Dirk Trossen to Everyone:     @Phil: more like neutrality to be able to utilize compute resources to provision SNs in EI
+07/28/2021    20:01:10 PM    from Philip Eardley to Everyone:   @dirkT - I meant - it seems a stretch for a regulator to argue that neutrality is needed for something that is offering differentiated and enhanced services
+07/28/2021    20:02:17 PM    from Dirk Trossen to Everyone:     @Phil is it harder than to simply accept the de-facto monopoly that exists today?
+07/28/2021    20:02:36 PM    from Philip Eardley to Everyone:   Perhaps a deployment route is through operator - worried about the hyperscalers getting the value added networking over the top -
+07/28/2021    20:03:30 PM    from Dirk Trossen to Everyone:     @phil good point, wonder who you work for?
+07/28/2021    20:03:43 PM    from cedric.westphal@futurewei.com cedric.westphal@futurewei.com to Everyone:      @philip: how is that working for CDNi?
+07/28/2021    20:04:04 PM    from Philip Eardley to Everyone:   @DirkT - I think the  solution to that monopoly is political not technical
+07/28/2021    20:04:16 PM    from Toerless Eckert Futurewei to Everyone:        @Dirk: biggest victim of ofcom ? ;-)
+07/28/2021    20:04:21 PM    from Philip Eardley to Everyone:   @DirkT - yep, blinkered view, sorry!
+07/28/2021    20:05:00 PM    from Dirk Trossen to Everyone:     @Phil nah, it was a good point regardless :-) but agree on the politcal dimension.
+07/28/2021    20:08:02 PM    from Philip Eardley to Everyone:   did i hear right that the EI needs sw in the end hosts? if yes, problem is that very few parties control that sw, so the deployment incentives need to work for them
+07/28/2021    20:08:24 PM    from Daniel King LANCS to Everyone:        @Joao - Does the algebraic approach only apply to link state protocols, what about distance vector?
+07/28/2021    20:08:50 PM    from Daniel King LANCS to Everyone:        Do you also have some some application examples, beyond the theoretical?
+07/28/2021    20:11:15 PM    from Daniel King LANCS to Everyone:        @Joao An algebraic approach in a distributed system would also require signaling extensions? Is this something your team are experimenting with?
+07/28/2021    20:14:26 PM    from Tianji Jiang - CMCC to Everyone:      Sorry, got mike problem
+07/28/2021    20:14:44 PM    from Daniel King LANCS to Everyone:        Is it fixed Tianji?
+07/28/2021    20:14:50 PM    from Tianji Jiang - CMCC to Everyone:      no
+07/28/2021    20:14:55 PM    from Tianji Jiang - CMCC to Everyone:      still trying to figure it out
+07/28/2021    20:15:00 PM    from Daniel King LANCS to Everyone:        Ah, can you type your question?
+07/28/2021    20:15:17 PM    from Tianji Jiang - CMCC to Everyone:      will see ; thanks
+07/28/2021    20:17:46 PM    from Alissa Cooper to Everyone:    @Phil I thought the implication was that some services might be usable with unmodified hosts, other not.
+07/28/2021    20:18:07 PM    from Dirk Trossen to Everyone:     @joao would love to connect your work with compute-aware path selection, either in an overlay, at L3 or also in an EI/SN-based network. Would you see the accommodation of service-specific constraints fit into the mental model of your work?
+07/28/2021    20:21:14 PM    from Aaron Falk to Everyone:       Great session, Adrian.  I have to jump.  Hope there's more like this in the future.
+07/28/2021    20:22:35 PM    from Jari Arkko to Everyone:       +1 Aaron
+07/28/2021    20:27:42 PM    from Eric Vyncke to Everyone:      +1
+07/28/2021    20:28:29 PM    from tony.li to Everyone:  +1 Maybe more sessions next time?
+07/28/2021    20:29:26 PM    from Daniel King LANCS to Everyone:        @Tony +1
+07/28/2021    20:30:49 PM    from Dirk Trossen to Everyone:     @tony +1
+07/28/2021    20:31:14 PM    from cedric.westphal@futurewei.com cedric.westphal@futurewei.com to Everyone:      +1, very nice session. Nice to see this topic being discussed
+07/28/2021    20:35:01 PM    from Antoine Fressancourt to Everyone:     Thanks a lot !
+07/28/2021    20:35:24 PM    from Dirk Trossen to Everyone:     Thanks Adrian and all speakers for this great session and all for the lively discussion on the chat!
+07/28/2021    20:35:24 PM    from Daniel King LANCS to Everyone:        Thanks all, and speakers.
+07/28/2021    20:35:28 PM    from Dhruv Dhody to Everyone:      Thanks
+07/28/2021    20:35:28 PM    from Dirk Kutscher to Everyone:    Thanks all
+07/28/2021    20:35:35 PM    from Roland Bless to Everyone:     Thanks, great session
+07/28/2021    20:35:35 PM    from João Luís Sobrinho to Everyone:     Thank you.
+07/28/2021    20:36:36 PM    from Guangpeng Li to Everyone:      Thank you
