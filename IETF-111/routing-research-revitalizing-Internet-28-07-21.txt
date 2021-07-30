@@ -6,20 +6,6 @@ Minutes: https://etherpad.wikimedia.org/p/routing-research-revitalizing-Internet
 
 This 90 minute side meeting can be seen on the IETF-111 wiki at https://trac.ietf.org/trac/ietf/meeting/wiki/111sidemeetings. 
 
-Attendees: 
-    
-Luigi Iannone, Stewart Bryant,    Joe,    Adrian Farrel Guest,    Josep Ribes UPV,    Scott Burleig,    Scott Shenker,    Dirk v. Hugo,    Daniel King LANCS,    Hesham,    Peng Liu,    Antoine Fressancourt,    João Luís Sobrinho,    
-Julien Maisonneuve,    Arvind Krishnamurthy,    Scott Brim,    Marinos Charalambides,    Tianji Jiang - CMCC,   
-Tim Costello,    Yangang,    Zongpeng,    Carsten Bormann,    David Millman,    Yizhou Li,    David Lou,    
-Guangpeng Li,    Lars Eggert,    Toerless Eckert, Colin Perkins,    Daphanie,    Dirk Trossen,    
-Kazuaki Ueda,    Roland Bless,    Sheng JIANG,    jim reid,    tony.li,    Andrew S,    Dhruv Dhody,    Felix Walter,    AIOTI,    Alex Galis,    Chi-Jiun Su,    DONALD EASTLAKE,    Kiran,    Lin Han,    Phil,    Alissa Cooper,    Ike Kunze,    
-John Border,    Jordi Paillissé,    Yingzhen,    Cedric Westphal,   Dirk Kutscher,    Hannu Flinck,    Mike Boyle,    
-Alex Clemm,    Chonggang Wang    Ian Duncan    Marco Carugi    Philip Eardley    Scott Mansfield Ericsson    Xavier de Foy,    Linda Dunbar    Lixia    Daniel Huang    Mike McBride    Ulrich Graf    emile    David Guzman Jessica Fitzgerald-McKay,    Richard Li,    andrei robachevsky,    Aaron Falk,    Dominique Lazanski,    Evangelos Haleplidis,    Michael,    Ronald van der Pol,    Jari Arkko,    Marco Liebsch,    Peter Koch,    Belyons,    
-Diego Lopez,    Juanna Dang,    Aurojit Panda,    Alia Atlas,    Jeff Boleng,    Yihao Jia,    Patricia,    Eric Vyncke,    David Oran,    José Brázio,    Didier Berthoumieux,    Yihao Jia,    Yihao Jia,   Miguel Rio,    
-Oscar Gonzalez de Dios,    Lan Wang,    Yihao Jia,    Michael Richardson,    Maximilian Nitsch,    Miguel Rio,    
-Taiji Kimura JPNIC ,   Richard Li,   andrei robachevsky IETF/IAB,    Yizhou Li,    Maximilian Nitsch,    
-Alexander Clemm,  Alvaro Retana,    Daniel Bernier ,   Yizhou Li,   
-
 Our agenda is:
 
 1. Introduction and opening remarks
