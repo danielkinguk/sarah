@@ -8,7 +8,7 @@ Please subscribe to and participate on the SARAH mailing list.
 Sign-up via https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH where you can also see the list archive.
 
 ## Related Conferences and Workshops where SARAH has been discussed
-* ICT 21 - Special Session 1: Re-thinking the Data & Forwarding Plane for 6G and More 
+* [ICT 21](https://github.com/danielkinguk/sarah/wiki/Conferences-and-Related-Publications) - Special Session 1: Re-thinking the Data & Forwarding Plane for 6G and More 
 * IEEE HPSR 21 - Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report
 * IETF 111 - Routing Research Challenges Arising from Evolving Beyond and Revitalizing the Internet
 
