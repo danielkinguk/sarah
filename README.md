@@ -16,10 +16,10 @@ Sign-up via https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH where you can a
 Please use this section to provide the title and a link for relevant Internet-Drafts
 
 Challenges for the Internet Routing Infrastructure Introduced by Changes in Address Semantics
-* https://datatracker.ietf.org/doc/draft-king-irtf-challenges-in-routing/
+* https://datatracker.ietf.org/doc/html/draft-king-irtf-challenges-in-routing/
 
 A Survey of Semantic Internet Routing Techniques
 * https://datatracker.ietf.org/doc/html/draft-king-irtf-semantic-routing-survey
 
 Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report
-* https://datatracker.ietf.org/doc/html/draft-galis-irtf-sarnet21-report-00
+* https://datatracker.ietf.org/doc/html/draft-galis-irtf-sarnet21-report
