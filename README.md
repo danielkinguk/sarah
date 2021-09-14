@@ -26,3 +26,7 @@ A Survey of Semantic Internet Routing Techniques
 
 Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report
 * https://datatracker.ietf.org/doc/html/draft-galis-irtf-sarnet21-report
+
+For a current list of relevant research literature related to Semantic Addressing and Routing please see [Semantic-Addressing-and-Routing-Literature](https://github.com/danielkinguk/sarah/wiki/Semantic-Addressing-and-Routing-Literature) please contact [Dr. Daniel King](mailto:d.king@lancaster.ac.uk?subject=[GitHub]%20SARAH%20Literature) if you would like to add your own literature or project to the list.
+
+For a list of upcoming conferences and related calls for papers see [Conferences-and-Related-Publications](https://github.com/danielkinguk/sarah/wiki/Conferences-and-Related-Publications) please contact [Dr. Daniel King](mailto:d.king@lancaster.ac.uk?subject=[GitHub]%20SARAH%20Literature) if you would like to add your own conference or CFP to the list.
