@@ -13,6 +13,7 @@ Sign-up via https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH where you can a
 * [IETF 111](https://github.com/danielkinguk/sarah/tree/main/IETF-111) - Routing Research Challenges Arising from Evolving Beyond and Revitalizing the Internet
 
 ## Upcoming Conferences and Workshops Related to SARAH
+* [Interim Workshop on Evolving Routing Security in the Internet](https://github.com/danielkinguk/sarah/edit/main/conferences/security-workshop) Virtual Event, Thursday 30th September 2021, 3pm UTC
 * [2nd Workshop on New Internetworking Protocols, Architecture and Algorithms (NIPAA-21)](https://nipaa21.wordpress.com/) Virtual Event, November 2, 2021. Organized by IEEE ICNP 2021
 
 ## IETF Internet-Drafts
