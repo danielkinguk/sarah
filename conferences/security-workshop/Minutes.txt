@@ -1,0 +1,90 @@
+== Evolving Routing Security in the Internet ==
+ Thursday 30th September 2021 
+ 8am Pacific, 11am Eastern, 3pm UTC, 4pm UK, 5pm Central Europe, 11pm China
+ 
+Webex: https://htf-paris.my.webex.com/htf-paris.my-en/j.php?MTID=mc8bb1a7bcda855d14060678f65272117
+YouTube: https://youtu.be/V9CZC42BTDc
+Materials: https://github.com/danielkinguk/sarah/edit/main/conferences/security-workshop/materials
+Mailing list: https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH
+ 
+1. Moderator's Introduction  Adrian Farrel, Old Dog Consulting   5 minutes
+ 
+2. Mutually Agreed Norms for Routing Security   Andrei Robachevsky, Internet Society   20 minutes
+ 
+(from WebEx chat)
+Alejandro Acosta: May I ask how many participants are participating in MANRS? Including CDNs, IXPs, ISPs? Thanks
+Andy Malis: A list on slide 19
+Jakob Heitz: Cisco, Juniper, Arista, Nokia, Huawei. Maybe more.
+(slide 5 lists "5 equipment vendors" so maybe not more)
+ 
+(deferred to discussion section)
+Carsten Bormann: (Question to everyone presenting:)What kind of research are you looking for?
+ 
+slm: how is number of incidents counted?
+Andrei Robachevsky: we were using bgpstream.com for measuring trends in routing incidents
+ 
+https://observatory.manrs.org/#/about points to the Measurement framework, where you can see how the indices are calculated
+ 
+3. Lightweight blockchain assisted secure routing of swarm UAS networking   Houbing Song and Jian Wang, Embry-Riddle Aeronautical University   20 minutes   
+ 
+(from WebEx chat)
+Alex Clemm: Slide 19: If 90% of UAS are malicious, how will blockchain work - don't you need a majority of  UAS with integrity?
+Joel Halpern: Did I miss where the speaker explained the goals of this work, other than "Blockchain"?
+ 
+(moving to mic:)
+Adrian: You're trying to address a malicious member of a swarm?
+Jian Wang: Yes
+ 
+(from WebEx chat)
+Houbing Song: More details in our paper: https://www.sciencedirect.com/science/article/pii/S0140366420319885
+ 
+4. On-Demand Blind Packet Forwarding   Irfan Simsek, University of Duisburg-Essen   20 minutes  
+ 
+(from WebEx chat)
+Scott Fluhrer: Do I understand this correctly?  Are they suggesting that routers compute the Test operator for each packet?
+Antoine Fressancourt: Are keys persistent in your system? If it is the case, don't you think that in the end the identifying addresses have "just" been replaced by a cyphered identifier that can still be used to track the packets's senders and receivers?
+Toerless Eckert: Antoine: I don't understand the test function. But i was also wondering how much more entropy is used for masked addresses to prohibit such reverse mapping observation attacks against the scheme
+ 
+(mic)
+Scott: Are you suggesting that routers compute the Test operator for each packet?
+Irfan: Yes, but at the beginning of setup of flow, you have to do test function. After you've set up flows, you don't have to repeatedly do the test function.
+Scott: You don't mind the correlation of packets with the same flow?
+Irfan: You cannot correlate packets together. 
+Scott: The test functions I know of are expensive. Is that feasible per-flow?
+Irfan: Yes, if you have setup flows for a session between end-points. 
+ 
+Antoine:  (Repeated from earlier) Are keys persistent in your system?
+Irfan: Do you mean the nodes need the public keys of one another so they can update their tables?
+Antoine: If the keys aren't changing often, it can be used as a way of de-anonymizing the system. If you keep a stable ID for a long time, it can be used to track the source or destination when communicating.  
+Irfan: I don't think so. Nodes maintain only mask locators of each other. IDs are also encrypted. You cannot know which end-points are communicating with each other. 
+Antoine: I will review the paper in more detail to understand how this is achieved. 
+Irfan: If you read the paper and have more questions, you can contact me. My email address is in the slides. 
+ 
+ 5. Open Discussion   25 minutes
+ 
+Carsten: This is interesting work, but what research would you like to see to increase the effectiveness of your current work?
+Andrei: When we plan for technology to apply to the current Internet, we need an analysis of the impact. Even innocent proposals may damage the Internet if deployed. We must not fragment the Internet too. Also, what forces are driving these techniques, technical or economic.
+Carsten: A key message is to find unintended consequences, socio-technical included. There are examples of these factors causing problems due to non-technical reasons. 
+Andrei: Yes, I think the deployment scenario should also be considered along with the socio-technical and unintended consequences.
+ 
+Adrian: What further research would the presenters like to see conducted? 
+Jian Wang:  Yes, we perform research for networking and would like more people to help collaborate on secure routing.
+Irfan: My PhD topic has no cooperation with a topic of future network architectures. This approach could be extended and maybe making Blind Packet Forwarding as an overlay network.  
+ 
+Adrian: Alex had a question from earlier. 
+Alex: On slide 19. If 90% of UAS are malicious against 10% that is not, how will blockchain work - don't you need a majority of UAS with integrity?
+Jian Wang: The legitimate UAS will still work, they will only communicate with the legitimate peers and will not be compromised by the attackers.   
+ 
+Toerless: I am interested for next steps for experimentation, for say an overlay network. How would this improve existing anonymizations. 
+Irfan: I had an idea to use Blind Packet Forward as an overlay. A sender would also have to be part of the overlay network. 
+Toerless: You might want to investigate that use case more, attend the IETF, such as the routing area. That would be a logical first step. 
+Adrian: Irfan you can contact me if you would like to know how to engage with the IETF.  
+     
+(From  WebEx Chat)
+John Scudder: Indeed if 90% are "malicious" and 10% are "legitimate" it calls into question what "malicious" and "legitimate" even mean. I guess maybe it means there are two equivalence classes of UASes, and members of the minority equivalence class don't accept packets from the members of the majority equivalence class?
+       
+(From WebEx Chat)
+Tony Li: I would welcome research on IGP & BGP threats and vulnerabilities.
+ 
+Closing Meeting 
+Adrian: Thank you for attending. Tony Li made a good comment that we really need more investigation into attacks on IGPs and BGP. We will take some of the outstanding questions to the SARAH list. Thanks, and back on with you work!
