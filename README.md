@@ -15,6 +15,7 @@ Sign-up via https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH where you can a
  
 ## Upcoming Conferences and Workshops Related to SARAH
 * [2nd Workshop on New Internetworking Protocols, Architecture and Algorithms (NIPAA-21)](https://nipaa21.wordpress.com/) Virtual Event, November 1st, 2021. Organized by IEEE ICNP 2021
+* [IETF 112 side meeting](https://github.com/danielkinguk/sarah/tree/main/conferences/ietf-112) - Service Routing and Addressing, November 10th, 2021
 
 ## IETF Internet-Drafts
 Please use this section to provide the title and a link for relevant Internet-Drafts
