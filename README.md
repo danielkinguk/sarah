@@ -11,9 +11,9 @@ Sign-up via https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH where you can a
 * [ICT 21](https://github.com/danielkinguk/sarah/tree/main/conferences/ICT21) - Special Session 1: Re-thinking the Data & Forwarding Plane for 6G and More 
 * [IEEE HPSR 21](https://github.com/danielkinguk/sarah/tree/main/conferences/sarnet-21) - Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report
 * [IETF 111](https://github.com/danielkinguk/sarah/tree/main/IETF-111) - Routing Research Challenges Arising from Evolving Beyond and Revitalizing the Internet
-
-## Upcoming Conferences and Workshops Related to SARAH
 * [Interim Workshop on Evolving Routing Security in the Internet](https://github.com/danielkinguk/sarah/edit/main/conferences/security-workshop) Virtual Event, Thursday 30th September 2021, 3pm UTC
+ 
+## Upcoming Conferences and Workshops Related to SARAH
 * [2nd Workshop on New Internetworking Protocols, Architecture and Algorithms (NIPAA-21)](https://nipaa21.wordpress.com/) Virtual Event, November 1st, 2021. Organized by IEEE ICNP 2021
 
 ## IETF Internet-Drafts
@@ -27,6 +27,9 @@ A Survey of Semantic Internet Routing Techniques
 
 Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report
 * https://datatracker.ietf.org/doc/html/draft-galis-irtf-sarnet21-report
+
+Innovation in Internet Routing and Addressing
+* https://datatracker.ietf.org/doc/draft-iannone-routing-and-addressing-manifesto
 
 For a current list of relevant research literature related to Semantic Addressing and Routing please see [Semantic-Addressing-and-Routing-Literature](https://github.com/danielkinguk/sarah/wiki/Semantic-Addressing-and-Routing-Literature) please contact [Dr. Daniel King](mailto:d.king@lancaster.ac.uk?subject=[GitHub]%20SARAH%20Literature) if you would like to add your own literature or project to the list.
 
