@@ -26,7 +26,7 @@ Mailing list: https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH
    20 minutes
 
 4. Centralization of service provisioning and the impact on routing
-   Geoff Huston, Chief Scientist, APNIC (unconfirmed)
+   Geoff Huston, Chief Scientist, APNIC
    20 minutes
 
 5. Open Discussion
@@ -34,3 +34,4 @@ Mailing list: https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH
 
 6. Proposal for a Research Group
    Adrian Farrel
+   5 minutes
