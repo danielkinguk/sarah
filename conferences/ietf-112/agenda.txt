@@ -21,12 +21,12 @@ Mailing list: https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH
    20 minutes
 
 3. RICE: Remote Method Invocation in ICN
-   Michal Krol and Ioannis Psaras, UCL
+   Michal Krol, City University and Ioannis Psaras, Protocol Labs
    https://conferences.sigcomm.org/acm-icn/2018/proceedings/icn18-final9.pdf
    20 minutes
 
 4. Centralization of service provisioning and the impact on routing
-   Geoff Huston, Chief Scientist, APNIC
+   Geoff Huston, Chief Scientist, APNIC (unconfirmed)
    20 minutes
 
 5. Open Discussion
