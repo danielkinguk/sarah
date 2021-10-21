@@ -1,1 +1,36 @@
+== Service Routing and Addressing ==
 
+Wednesday 10th November 2021
+
+18.30-20.00 UTC
+11.30 West Coast, 14.30 East Coast, 02.30 China (next day)
+
+Webex: TBD
+YouTube: TBD
+Note taking: TBD
+Materials: https://github.com/danielkinguk/sarah/edit/main/conferences/ietf-112/materials
+Mailing list: https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH
+
+1. Moderator's Introduction
+   Adrian Farrel, Old Dog Consulting
+   5 minutes
+
+2. The ties that un-bind: decoupling IP from web services and sockets for robust addressing agility at CDN-scale
+   Vasileios Giotsas, Cloudflare Inc. and Lancaster University
+   https://dl.acm.org/doi/10.1145/3452296.3472922
+   20 minutes
+
+3. RICE: Remote Method Invocation in ICN
+   Michal Krol and Ioannis Psaras, UCL
+   https://conferences.sigcomm.org/acm-icn/2018/proceedings/icn18-final9.pdf
+   20 minutes
+
+4. Centralization of service provisioning and the impact on routing
+   Geoff Huston, Chief Scientist, APNIC
+   20 minutes
+
+5. Open Discussion
+   20 minutes
+
+6. Proposal for a Research Group
+   Adrian Farrel
