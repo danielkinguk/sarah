@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Edit by hand for better ical
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTART:20211110T183000Z
+DTEND:20211110T200000Z
+ATTENDEE;CN="Open Meeting"
+CLASS:PUBLIC
+CREATED:20211021T234300Z
+DTSTAMP:20211021T234300Z
+LAST-MODIFIED:20211021T234300Z
+ORGANIZER;CN="Adrian Farrel":mailto:adrian@olddog.co.uk
+PRIORITY:5
+SUMMARY:Service Routing and Addressing
+
+URL:https://github.com/danielkinguk/sarah/tree/main/conferences/ietf-112
+
+DESCRIPTION:Open meeting to discuss new work related to Service Routing and Addressing
+    \n
+    \nJoin by YouTube Live Stream or on Webex
+    \n
+    \nYouTube : https://youtu.be/V9CZC42BTDc
+    \n
+    \nJoin from the Webex meeting link:
+    \n    https://htf-paris.my.webex.com/htf-paris.my-en/j.php?MTID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    \n
+    \nJoin by meeting number
+    \n    Meeting number (access code): xxxx xxx xxxx
+    \n    Meeting password: xxxxxxxxxxx (xxxxxxxx from phones and video systems)
+    \n
+    \nTap to join from a mobile device (attendees only)
+    \n    +1-650-215-5226,,xxxxxxxxxxx#xxxxxxxx# United States Toll
+    \n    Some mobile devices may ask attendees to enter a numeric password.
+    \n
+    \nJoin by phone
+    \n    +1-650-215-5226 United States Toll
+    \n
+    \nJoin by video system, application or Skype for business
+    \n    Dial xxxxxxxxxxx@webex.com
+    \n    You can also dial 62.109.219.4 and enter your meeting number.
+
+LOCATION:Webex
+END:VEVENT
+END:VCALENDAR
