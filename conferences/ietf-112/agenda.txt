@@ -5,8 +5,8 @@ Wednesday 10th November 2021
 18.30-20.00 UTC
 11.30 West Coast, 14.30 East Coast, 02.30 China (next day)
 
-Webex: TBD
-YouTube: TBD
+Webex: https://htf-paris.my.webex.com/htf-paris.my-en/j.php?MTID=m760a9ed9560f76ad31a54a64d945ca86
+YouTube: https://www.youtube.com/watch?v=cx2G5QxS9Eo
 Note taking: TBD
 Materials: https://github.com/danielkinguk/sarah/edit/main/conferences/ietf-112/materials
 Mailing list: https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH
@@ -35,3 +35,10 @@ Mailing list: https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH
 6. Proposal for a Research Group
    Adrian Farrel
    5 minutes
+
+
+
+
+
+
+
