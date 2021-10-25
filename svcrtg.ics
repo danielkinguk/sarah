@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Edit by hand for better ical
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTART:20211110T183000Z
+DTEND:20211110T200000Z
+ATTENDEE;CN="Open Meeting"
+CLASS:PUBLIC
+CREATED:20211021T234300Z
+DTSTAMP:20211021T234300Z
+LAST-MODIFIED:20211025T171700Z
+ORGANIZER;CN="Adrian Farrel":mailto:adrian@olddog.co.uk
+PRIORITY:5
+SUMMARY:Service Routing and Addressing
+
+URL:https://github.com/danielkinguk/sarah/tree/main/conferences/ietf-112
+
+DESCRIPTION:Open meeting to discuss new work related to Service Routing and Addressing
+    \n
+    \nJoin by YouTube Live Stream or on Webex
+    \n
+    \nYouTube : https://www.youtube.com/watch?v=cx2G5QxS9Eo
+    \n
+    \nJoin from the Webex meeting link:
+    \n    https://htf-paris.my.webex.com/htf-paris.my-en/j.php?MTID=m760a9ed9560f76ad31a54a64d945ca86
+
+LOCATION:Webex
+END:VEVENT
+END:VCALENDAR
