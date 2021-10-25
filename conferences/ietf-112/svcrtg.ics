@@ -9,7 +9,7 @@ ATTENDEE;CN="Open Meeting"
 CLASS:PUBLIC
 CREATED:20211021T234300Z
 DTSTAMP:20211021T234300Z
-LAST-MODIFIED:20211021T234300Z
+LAST-MODIFIED:20211025T171700Z
 ORGANIZER;CN="Adrian Farrel":mailto:adrian@olddog.co.uk
 PRIORITY:5
 SUMMARY:Service Routing and Addressing
@@ -20,25 +20,10 @@ DESCRIPTION:Open meeting to discuss new work related to Service Routing and Addr
     \n
     \nJoin by YouTube Live Stream or on Webex
     \n
-    \nYouTube : https://youtu.be/V9CZC42BTDc
+    \nYouTube : https://www.youtube.com/watch?v=cx2G5QxS9Eo
     \n
     \nJoin from the Webex meeting link:
-    \n    https://htf-paris.my.webex.com/htf-paris.my-en/j.php?MTID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    \n
-    \nJoin by meeting number
-    \n    Meeting number (access code): xxxx xxx xxxx
-    \n    Meeting password: xxxxxxxxxxx (xxxxxxxx from phones and video systems)
-    \n
-    \nTap to join from a mobile device (attendees only)
-    \n    +1-650-215-5226,,xxxxxxxxxxx#xxxxxxxx# United States Toll
-    \n    Some mobile devices may ask attendees to enter a numeric password.
-    \n
-    \nJoin by phone
-    \n    +1-650-215-5226 United States Toll
-    \n
-    \nJoin by video system, application or Skype for business
-    \n    Dial xxxxxxxxxxx@webex.com
-    \n    You can also dial 62.109.219.4 and enter your meeting number.
+    \n    https://htf-paris.my.webex.com/htf-paris.my-en/j.php?MTID=m760a9ed9560f76ad31a54a64d945ca86
 
 LOCATION:Webex
 END:VEVENT
