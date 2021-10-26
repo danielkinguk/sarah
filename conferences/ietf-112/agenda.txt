@@ -7,7 +7,7 @@ Wednesday 10th November 2021
 
 Webex: https://htf-paris.my.webex.com/htf-paris.my-en/j.php?MTID=m760a9ed9560f76ad31a54a64d945ca86
 YouTube: https://www.youtube.com/watch?v=cx2G5QxS9Eo
-Note taking: TBD
+Note taking: https://etherpad.wikimedia.org/p/service-routing-and-addressing-10-11-21
 Materials: https://github.com/danielkinguk/sarah/edit/main/conferences/ietf-112/materials
 Mailing list: https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH
 
