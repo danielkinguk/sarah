@@ -32,6 +32,13 @@ Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report
 Innovation in Internet Routing and Addressing
 * https://datatracker.ietf.org/doc/draft-iannone-routing-and-addressing-manifesto
 
+## Possible Proposed Research Group in the IRTF
+We are considering the possibility of a new Research Group in the IRTF. The working title is "Routing and Addressing in the Internet with Semantic Enhancements” (RAISE)
+
+More details [here](https://github.com/danielkinguk/sarah/tree/main/RAISE).
+
+## Other Information
+
 For a current list of relevant research literature related to Semantic Addressing and Routing please see [Semantic-Addressing-and-Routing-Literature](https://github.com/danielkinguk/sarah/wiki/Semantic-Addressing-and-Routing-Literature) please contact [Dr. Daniel King](mailto:d.king@lancaster.ac.uk?subject=[GitHub]%20SARAH%20Literature) if you would like to add your own literature or project to the list.
 
 For a list of upcoming conferences and related calls for papers see [Conferences-and-Related-Publications](https://github.com/danielkinguk/sarah/wiki/Conferences-and-Related-Publications) please contact [Dr. Daniel King](mailto:d.king@lancaster.ac.uk?subject=[GitHub]%20SARAH%20Literature) if you would like to add your own conference or CFP to the list.
