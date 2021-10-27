@@ -15,16 +15,16 @@ As with all advances in Internet protocols, semantic routing and addressing may 
 A strategic objective of proposed semantic routing and addressing mechanisms is to enable Service Providers to modify the default forwarding behaviour to be based on other information present in the packet and policy configured or dynamically programmed into the routers and devices. This is aimed to cause new and alternative path processing by routers, including:
 
 *	Determinism of quality of delivery in terms of throughput, latency, jitter, drop precedence. 
-*	Determinism of resilience in terms of survival of network failures and delivery degradation.
-*	Determinism of routing performance in terms of the volume of data that has to be exchanged both to establish and to maintain the routing tables.
-*	Deployability in terms of configuration, training, development of new hardware/software, and interaction with pre-existing network technologies and uses.
-*	Efficiency of manageability in terms of i. diagnostic management, ii. management of Service KPIs with/without guarantees, and iii. dynamic and controlled instantiation of management information in the packets."
+* Determinism of resilience in terms of survival of network failures and delivery degradation.
+* Determinism of routing performance in terms of the volume of data that has to be exchanged both to establish and to maintain the routing tables.
+* Deployability in terms of configuration, training, development of new hardware/software, and interaction with pre-existing network technologies and uses.
+* Efficiency of manageability in terms of i. diagnostic management, ii. management of Service KPIs with/without guarantees, and iii. dynamic and controlled instantiation of management information in the packets."
 
 Efforts to develop new approaches to routing have been ongoing within the IETF/IRTF and wider academia for some years (see draft-king-irtf-semantic-routing-survey for a partial list). The ICNRG has looked at extending the scope of routing to information retrieval scenarios and for distributed computing, and COINRG has discussed the need to incorporate in-network computational resources into the communications and associated addressing with the possible impact on network capabilities like routing and transport. Application constraints have been considered in a number of routing proposals (such as the APN BoF in the IETF). Although routing plays a role in those efforts, it is not the central focus.
 
 There has been some background work to bring together ideas and researchers in the field of semantic routing and semantic addressing. This has manifested through conferences, workshops, Internet-Drafts, and a mailing list.
 
-*	Workshops at academic conferences
+* Workshops at academic conferences
     * 28th International Conference on Telecommunications,
       1-3 June 2021, 
       https://ict-21.org/,
@@ -50,7 +50,7 @@ There has been some background work to bring together ideas and researchers in t
 * Mailing list
     * Semantic Address Routing and Hardware (SARAH) list,
       https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH
-*	Internet-Drafts
+* Internet-Drafts
     * “Challenges for the Internet Routing Infrastructure Introduced by Changes in Address Semantics”, 
       Presents a set of research questions and issues to be considered when considering semantic routing and semantic addresses.
       https://datatracker.ietf.org/doc/html/draft-king-irtf-challenges-in-routing/
@@ -67,9 +67,9 @@ There has been some background work to bring together ideas and researchers in t
 This ongoing work has encouraged the idea of forming a “Routing and Addressing in the Internet with Semantic Enhancements” (RAISE) Proposed Research Group within the IRTF to provide a forum for researchers and practitioners to explore new Internet routing technologies. In particular, to work on challenges faced by routing systems in the Internet as pressure is placed on them by increasing demands from applications for predictable, differentiated, quality-enhanced connectivity, and service functions.
 
 A draft charter for this Proposed RG is presented in a separate document. In summary, RAISE would aim to:
-*	Bring significant relevant research and outcomes to the IRTF for broader dissemination.
-*	Identify existing and future challenges to the Internet routing systems.
-*	Determine what the basis would be for deciding whether semantic routing and semantic addressing is viable.
-*	Encourage research and debate into semantic routing systems and architectures both within the IRTF and via outreach to other conferences.
+* Bring significant relevant research and outcomes to the IRTF for broader dissemination.
+* Identify existing and future challenges to the Internet routing systems.
+* Determine what the basis would be for deciding whether semantic routing and semantic addressing is viable.
+* Encourage research and debate into semantic routing systems and architectures both within the IRTF and via outreach to other conferences.
 
 More specifically, the work of the Proposed RG would be delivered by the research questions derived from draft-king-irtf-challenges-in-routing and set out in the draft charter. 
