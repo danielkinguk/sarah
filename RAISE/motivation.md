@@ -33,36 +33,36 @@ There has been some background work to bring together ideas and researchers in t
         * 7-10 June, 2021
         * https://hpsr2021.ieee-hpsr.org/sarnet-21/
         * Workshop on “Semantic Addressing and Routing for Future Network (SARNET-21)”
-    * 29th IEEE International Conference on Network Protocols,
-      November 1-5, 2021,
-      https://nipaa21.wordpress.com/,
-      2nd Workshop on New Internetworking Protocols, Architecture and Algorithms
+    * 29th IEEE International Conference on Network Protocols
+        * November 1-5, 2021
+        * https://nipaa21.wordpress.com/
+        * 2nd Workshop on New Internetworking Protocols, Architecture and Algorithms
 * Side meetings at the IETF
-    * IETF-111 “Routing Research Challenges Arising from Evolving Beyond and Revitalizing the Internet”,
-      28th July, 2021,
-      https://github.com/danielkinguk/sarah/tree/main/IETF-111
-    * Interim workshop on “Evolving Routing Security in the Internet”, 
-      30th September, 2021,
-      https://github.com/danielkinguk/sarah/tree/main/conferences/security-workshop
+    * IETF-111 “Routing Research Challenges Arising from Evolving Beyond and Revitalizing the Internet”
+        * 28th July, 2021
+        * https://github.com/danielkinguk/sarah/tree/main/IETF-111
+    * Interim workshop on “Evolving Routing Security in the Internet”
+        * 30th September, 2021
+        * https://github.com/danielkinguk/sarah/tree/main/conferences/security-workshop
     * IETF-112 “Service Routing and Addressing”,
-      10th November, 2021,
-      https://github.com/danielkinguk/sarah/tree/main/conferences/ietf-112
+        * 10th November, 2021
+        * https://github.com/danielkinguk/sarah/tree/main/conferences/ietf-112
 * Mailing list
     * Semantic Address Routing and Hardware (SARAH) list,
-      https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH
+        * https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH
 * Internet-Drafts
     * “Challenges for the Internet Routing Infrastructure Introduced by Changes in Address Semantics”, 
-      Presents a set of research questions and issues to be considered when considering semantic routing and semantic addresses.
-      https://datatracker.ietf.org/doc/html/draft-king-irtf-challenges-in-routing/
+        * Presents a set of research questions and issues to be considered when considering semantic routing and semantic addresses.
+        * https://datatracker.ietf.org/doc/html/draft-king-irtf-challenges-in-routing/
     * “A Survey of Semantic Internet Routing Techniques”,
-       A partial survey of recent and historic work on semantic routing and semantic addressing.
-       https://datatracker.ietf.org/doc/html/draft-king-irtf-semantic-routing-survey/
+        * A partial survey of recent and historic work on semantic routing and semantic addressing.
+        * https://datatracker.ietf.org/doc/html/draft-king-irtf-semantic-routing-survey/
     * “Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report”,
-       A report of the main issues discussed during the SARNET-21 workshop
-       https://datatracker.ietf.org/doc/html/draft-galis-irtf-sarnet21-report
+        * A report of the main issues discussed during the SARNET-21 workshop
+        * https://datatracker.ietf.org/doc/html/draft-galis-irtf-sarnet21-report
     * “Innovation in Internet Routing and Addressing”,
-      A call to arms for researchers in routing and addressing.
-      https://datatracker.ietf.org/doc/draft-iannone-routing-and-addressing-manifesto
+        * A call to arms for researchers in routing and addressing.
+        * https://datatracker.ietf.org/doc/draft-iannone-routing-and-addressing-manifesto
 
 This ongoing work has encouraged the idea of forming a “Routing and Addressing in the Internet with Semantic Enhancements” (RAISE) Proposed Research Group within the IRTF to provide a forum for researchers and practitioners to explore new Internet routing technologies. In particular, to work on challenges faced by routing systems in the Internet as pressure is placed on them by increasing demands from applications for predictable, differentiated, quality-enhanced connectivity, and service functions.
 
