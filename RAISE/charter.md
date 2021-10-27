@@ -1,6 +1,6 @@
-#Routing and Addressing in the Internet with Semantic Enhancements
-##RAISE Proposed Research Group
-##IRTF Draft Charter : Revision 06 : 2021-10-27
+# Routing and Addressing in the Internet with Semantic Enhancements
+## RAISE Proposed Research Group
+## IRTF Draft Charter : Revision 06 : 2021-10-27
 
 Upper-layer applications are placing increasingly sophisticated demands on the network for better quality, more predictability, and increasing reliability. Lower-layer network technologies are advancing rapidly with end-to-end communications extended to include machines and services. These changes have encouraged proposals to introduce routing and addressing behaviors and semantics specific to particular use cases and sets of requirements.
 
