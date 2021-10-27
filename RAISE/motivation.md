@@ -1,7 +1,7 @@
-=Routing and Addressing in the Internet with Semantic Enhancements=
-==RAISE Proposed Research Group==
+# Routing and Addressing in the Internet with Semantic Enhancements
+## RAISE Proposed Research Group
 
-==Motivation : Revision 06 : 2021-10-27==
+## Motivation : Revision 06 : 2021-10-27
 
 Upper-layer applications are placing increasingly sophisticated demands on the network for better quality, more predictability, and increasing reliability. Some of these applications are futuristic predictions (for example, holographic conferencing), but many are rapidly developing sectors with established revenue streams (such as multiplayer immersive gaming).
 
