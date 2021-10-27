@@ -29,10 +29,10 @@ There has been some background work to bring together ideas and researchers in t
         * 1-3 June 2021
         * https://ict-21.org/
         * Special session “Special Session 1: Re-thinking the Data & Forwarding Plane for 6G and More”
-    * IEEE International Conference on High Performance Switching and Routing,
-      7-10 June, 2021,
-      https://hpsr2021.ieee-hpsr.org/sarnet-21/,
-      Workshop on “Semantic Addressing and Routing for Future Network (SARNET-21)”
+    * IEEE International Conference on High Performance Switching and Routing
+        * 7-10 June, 2021
+        * https://hpsr2021.ieee-hpsr.org/sarnet-21/
+        * Workshop on “Semantic Addressing and Routing for Future Network (SARNET-21)”
     * 29th IEEE International Conference on Network Protocols,
       November 1-5, 2021,
       https://nipaa21.wordpress.com/,
