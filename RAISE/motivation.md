@@ -25,7 +25,7 @@ Efforts to develop new approaches to routing have been ongoing within the IETF/I
 There has been some background work to bring together ideas and researchers in the field of semantic routing and semantic addressing. This has manifested through conferences, workshops, Internet-Drafts, and a mailing list.
 
 *	Workshops at academic conferences
-  *	28th International Conference on Telecommunications 
+  **	28th International Conference on Telecommunications 
 1-3 June 2021
 https://ict-21.org/
 Special session “Special Session 1: Re-thinking the Data & Forwarding Plane for 6G and More”
