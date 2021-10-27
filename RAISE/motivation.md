@@ -26,8 +26,8 @@ There has been some background work to bring together ideas and researchers in t
 
 * Workshops at academic conferences
     * 28th International Conference on Telecommunications
-        * 1-3 June 2021, 
-        * https://ict-21.org/,
+        * 1-3 June 2021
+        * https://ict-21.org/
         * Special session “Special Session 1: Re-thinking the Data & Forwarding Plane for 6G and More”
     * IEEE International Conference on High Performance Switching and Routing,
       7-10 June, 2021,
