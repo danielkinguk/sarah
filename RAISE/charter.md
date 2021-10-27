@@ -24,10 +24,10 @@ The group will report its progress through a publicly accessible website and pre
 ### Research Questions
 RAISE is driven by a number of key research questions. These are set out in more detail in draft-king-irtf-challenges-in-routing. In all cases, the attention to and consideration of semantic routing and addressing are implicit.
 
-A. In what network scopes (global, overlay, backbone, limited domain) is it applicable to consider modifications to routing protocols and paradigms? How can limited domains be connected together across the Internet?
-B. How can the existing routing infrastructure be protected from new developments in routing and addressing? Must new developments be constrained to isolated domains or run as overlays, or can interworking and co-existence be considered? Do addressing and protocol gateways introduce fragility and fragmentation? How does the answer to this question change the likelihood of adoption and deployment?
-C. What features and functions are demanded by new and developing applications that cannot be delivered using existing routing and addressing techniques?
-D. What questions (such as scalability, privacy, robustness, manageability, power consumption) are given insufficient attention during research into new approaches for routing and addressing?
+* In what network scopes (global, overlay, backbone, limited domain) is it applicable to consider modifications to routing protocols and paradigms? How can limited domains be connected together across the Internet?
+* How can the existing routing infrastructure be protected from new developments in routing and addressing? Must new developments be constrained to isolated domains or run as overlays, or can interworking and co-existence be considered? Do addressing and protocol gateways introduce fragility and fragmentation? How does the answer to this question change the likelihood of adoption and deployment?
+* What features and functions are demanded by new and developing applications that cannot be delivered using existing routing and addressing techniques?
+* What questions (such as scalability, privacy, robustness, manageability, power consumption) are given insufficient attention during research into new approaches for routing and addressing?
 
 The work plan, below, sets out how RAISE will approach these questions.
 
@@ -40,10 +40,10 @@ An initial set of work items to investigate the topics-mentioned above are itemi
 2. Research and document taxonomy and ontology of routing and addressing schemes (together with their forwarding plane logic) that can flexibly and efficiently adapt to different routing semantics.
 3. Describe the technical, commercial, and practical benefits and drawbacks of applying routing and addressing schemes within limited domains. Analyze the requirements for domain identification, domain capability recognition, and domain isolation. Document architectures for interconnecting limited domains across the Internet using overlays, gateways, and integrated routing.
 4. Define, collect, and detail the research questions that need to form part of the experimentation and validation of flexible routing and addressing schemes.
-    a. Research the impact on routing scalability of the various semantic addressing and semantic routing schemes, both in terms of convergence times and routing table size.
-    b. Study methods to enable the co-existence of multiple routing semantics within the same network, such as service-based routing and topology-based routing in the same edge network. This includes consideration of interoperability between devices and network domains directly, using tunnels/layering, or through gateways.
-    c. Research the potential impact to the control and forwarding plane through the need for suitable addressing assignment, advertisement, routing protocols and forwarding behaviors, which would meet the new action models that underlie the routing and addressing.
-    d. In collaboration with PEARG, discuss, assess, research, and document the applicability of semantic routing and addressing technologies as methods to ensure routing security and privacy.
-    e. Search for possible detrimental effects of semantic routing and addressing, and investigate potential mitigations.
+    * Research the impact on routing scalability of the various semantic addressing and semantic routing schemes, both in terms of convergence times and routing table size.
+    * Study methods to enable the co-existence of multiple routing semantics within the same network, such as service-based routing and topology-based routing in the same edge network. This includes consideration of interoperability between devices and network domains directly, using tunnels/layering, or through gateways.
+    * Research the potential impact to the control and forwarding plane through the need for suitable addressing assignment, advertisement, routing protocols and forwarding behaviors, which would meet the new action models that underlie the routing and addressing.
+    * In collaboration with PEARG, discuss, assess, research, and document the applicability of semantic routing and addressing technologies as methods to ensure routing security and privacy.
+    * Search for possible detrimental effects of semantic routing and addressing, and investigate potential mitigations.
 
 RAISE will redirect work to the IETF when appropriate engineering projects are identified. RAISE is expected to cooperate with other research groups, especially ICNRG, COINRG, and PEARG, to determine the correct place to focus efforts and to reduce duplication while supporting the activities of each research group.
