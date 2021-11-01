@@ -21,7 +21,7 @@ Mailing list: https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH
    20 minutes
 
 3. RICE: Remote Method Invocation in ICN
-   Michal Krol, City University and Ioannis Psaras, Protocol Labs
+   Michal Krol, City University, London
    https://conferences.sigcomm.org/acm-icn/2018/proceedings/icn18-final9.pdf
    20 minutes
 
