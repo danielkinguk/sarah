@@ -22,6 +22,8 @@ A strategic objective of semantic routing and its associated semantic enhancemen
 
 Efforts to develop new approaches to routing have been ongoing within the IETF/IRTF and wider academia for some years (see draft-king-irtf-semantic-routing-survey for a partial list). The ICNRG has looked at extending the scope of routing to information retrieval scenarios and for distributed computing, and COINRG has discussed the need to incorporate in-network computational resources into the communications and associated addressing with the possible impact on network capabilities like routing and transport. Application constraints have been considered in a number of routing proposals (such as the APN BoF in the IETF). Although routing plays a role in those efforts, it is not the central focus.
 
+Issues of security and privacy have been largely overlooked within the routing systems. However, there is increasing concern that attacks on routing systems can not only be disruptive (for example, causing traffic to be dropped), but may cause traffic to be routed via inspection points that can breach the security or privacy of the payloads. While semantic routing may offer tools for increasing security and privacy, it is possible that semantic routing and associated semantic enhancements may provide vectors for attacks or compromise privacy. This must form an element of any research into the topic.
+
 There has been some background work to bring together ideas and researchers in the field of semantic routing. This has manifested through conferences, workshops, Internet-Drafts, and a mailing list.
 
 * Workshops at academic conferences
