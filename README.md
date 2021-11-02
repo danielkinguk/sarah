@@ -12,13 +12,13 @@ Sign-up via https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH where you can a
 * [IEEE HPSR 21](https://github.com/danielkinguk/sarah/tree/main/conferences/sarnet-21) - Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report
 * [IETF 111 side meeting](https://github.com/danielkinguk/sarah/tree/main/IETF-111) - Routing Research Challenges Arising from Evolving Beyond and Revitalizing the Internet
 * [Interim Workshop on Evolving Routing Security in the Internet](https://github.com/danielkinguk/sarah/edit/main/conferences/security-workshop) Virtual Event, Thursday 30th September 2021, 3pm UTC
+* [2nd Workshop on New Internetworking Protocols, Architecture and Algorithms (NIPAA-21)](https://nipaa21.wordpress.com/) Virtual Event, November 1st, 2021. Organized by IEEE ICNP 2021
  
 ## Upcoming Conferences and Workshops Related to SARAH
-* [2nd Workshop on New Internetworking Protocols, Architecture and Algorithms (NIPAA-21)](https://nipaa21.wordpress.com/) Virtual Event, November 1st, 2021. Organized by IEEE ICNP 2021
 * [IETF 112 side meeting](https://github.com/danielkinguk/sarah/tree/main/conferences/ietf-112) - Service Routing and Addressing, November 10th, 2021
 
 ## IETF Internet-Drafts
-Please use this section to provide the title and a link for relevant Internet-Drafts
+This section collects titles and a links for relevant Internet-Drafts
 
 Challenges for the Internet Routing Infrastructure Introduced by Changes in Address Semantics
 * https://datatracker.ietf.org/doc/html/draft-king-irtf-challenges-in-routing/
@@ -33,9 +33,9 @@ Innovation in Internet Routing and Addressing
 * https://datatracker.ietf.org/doc/draft-iannone-routing-and-addressing-manifesto
 
 ## Possible Proposed Research Group in the IRTF
-We are considering the possibility of a new Research Group in the IRTF. The working title is "Routing and Addressing in the Internet with Semantic Enhancements” (RAISE)
+We are considering the possibility of a new Research Group in the IRTF. The working title is "Routing in the Internet with Semantic Enhancements” (RISE)
 
-More details [here](https://github.com/danielkinguk/sarah/tree/main/RAISE).
+More details [here](https://github.com/danielkinguk/sarah/tree/main/RISE).
 
 ## Other Information
 
