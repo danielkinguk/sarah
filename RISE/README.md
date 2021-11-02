@@ -8,4 +8,5 @@ There are two files:
 * [Charter](https://github.com/danielkinguk/sarah/blob/main/RISE/charter.md) : This **early draft** of a charter is a stake in the ground. It is intended to provide a starting point for discussions of what a charter might look like.
 
 ## Discussion
-You can discuss this work further on the SARAH mailing list
+You can discuss this work further on the SARAH (Semantic Address Routing and Hardware) mailing list.
+Sign-up via https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH where you can also see the list archive.
