@@ -29,6 +29,8 @@ RISE is driven by a number of key research questions. These are set out in more 
 * What features and functions are demanded by new and developing applications that cannot be delivered using existing routing techniques?
 * What questions (such as scalability, privacy, robustness, manageability, power consumption) are given insufficient attention during research into new approaches for routing?
 
+Research into semantic routing must give full consideration to the security and privacy issues that are introduced by these mechanisms. Placing additional information into address fields or other fields in the packet might reveal details of what the packet is for, what function the user is performing, who the user is, etc. Furthermore, in-flight modification of the additional information might not directly change the destination of the packet, but might change how the packet is handled within the network and at the destination. Thus, security and privacy must form an integral part of any research into this topic.
+
 The work plan, below, sets out how RISE will approach these questions.
 
 ### Meetings
