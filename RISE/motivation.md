@@ -8,13 +8,13 @@ At the same time, lower-layer network technologies are advancing rapidly providi
 
 Despite this plurality of communication scenarios, IP-based addressing and network layer routing have remained focused on identifying locations of communication and determining paths between those locations. This has previously depended on higher-layer capabilities (e.g., for name-to-location resolution) to support those comprehensive communication scenarios, but that approach introduces latency and dependencies (e.g., changing locator assignments may depend on the capabilities of the upper-layer capability that are outside the core addressing and routing system). Furthermore, multi-layer lookups and interactions may impact the efficacy of communication scenarios, particularly those that employ different routing and addressing approaches beyond just locators.
 
-Semantic routing proposes to place the support for advanced routing and location functions directly at the packet routing layer, such as through extensions to the identification properties of addresses (what is being identified beyond just network locations) or through performing routing functions on an extended set of inputs (for example, other fields carried in packet headers). Such an approach would preserve the Internet architecture as it is today while enabling additional routing function. The addition of meaning to IP addresses is known as “semantic addressing”. The performance of routing functions based on semantic addresses and other properties of packets is called “semantic routing”. 
+Semantic routing proposes to place the support for advanced routing and location functions directly at the packet routing layer, such as through extensions to the identification properties of addresses (what is being identified beyond just network locations) or through performing routing functions on an extended set of inputs (for example, other fields carried in packet headers). Such an approach would preserve the Internet architecture as it is today while enabling additional routing function. The performance of routing functions based on addresses with enhanced semantics and other properties of packets is called “semantic routing”. 
 
-As with all advances in Internet protocols, semantic routing may be considered for Internet-wide deployment or may be restricted (possibly only initially) to well-defined and contained networks referred to as “limited domains” (see RFC 8799). A semantic address may be opaque within the network (in other words, the additional information it carries is not known by the routers), or may be transparent (so that routers are able, or expected, to act on the information carried in the address). Semantic routing may select paths in one domain that are not consistent with the paths selected in other domains. In any case, a concern and consideration must be coexistence with, and backward compatibility to, existing routing and addressing schemes that are widely deployed.
+As with all advances in Internet protocols, semantic routing may be considered for Internet-wide deployment or may be restricted (possibly only initially) to well-defined and contained networks referred to as “limited domains” (see RFC 8799). Semantic enhancements may be opaque within the network (in other words, the additional information it carries is not known by the routers), or may be transparent (so that routers are able, or expected, to act on the information carried in the address). Semantic routing may select paths in one domain that are not consistent with the paths selected in other domains. In any case, a concern and consideration must be coexistence with, and backward compatibility to, existing routing and addressing schemes that are widely deployed.
 
 A strategic objective of proposed semantic routing and its associated semantic enhancements is to enable Service Providers to modify the default forwarding behaviour to be based on other information present in the packet and policy configured or dynamically programmed into the routers and devices. This is aimed to cause new and alternative path processing by routers, including:
 
-*	Determinism of quality of delivery in terms of throughput, latency, jitter, drop precedence. 
+* Determinism of quality of delivery in terms of throughput, latency, jitter, drop precedence. 
 * Determinism of resilience in terms of survival of network failures and delivery degradation.
 * Determinism of routing performance in terms of the volume of data that has to be exchanged both to establish and to maintain the routing tables.
 * Deployability in terms of configuration, training, development of new hardware/software, and interaction with pre-existing network technologies and uses.
@@ -52,10 +52,10 @@ There has been some background work to bring together ideas and researchers in t
         * https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH
 * Internet-Drafts
     * “Challenges for the Internet Routing Infrastructure Introduced by Changes in Address Semantics”, 
-        * Presents a set of research questions and issues to be considered when considering semantic routing and semantic addresses.
+        * Presents a set of research questions and issues to be considered when considering semantic routing and assocuated semantic enhancements.
         * https://datatracker.ietf.org/doc/html/draft-king-irtf-challenges-in-routing/
     * “A Survey of Semantic Internet Routing Techniques”,
-        * A partial survey of recent and historic work on semantic routing and semantic addressing.
+        * A partial survey of recent and historic work on semantic routing and associated semantic enhancements.
         * https://datatracker.ietf.org/doc/html/draft-king-irtf-semantic-routing-survey/
     * “Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report”,
         * A report of the main issues discussed during the SARNET-21 workshop
@@ -64,12 +64,12 @@ There has been some background work to bring together ideas and researchers in t
         * A call to arms for researchers in routing and addressing.
         * https://datatracker.ietf.org/doc/draft-iannone-routing-and-addressing-manifesto
 
-This ongoing work has encouraged the idea of forming a “Routing and Addressing in the Internet with Semantic Enhancements” (RAISE) Proposed Research Group within the IRTF to provide a forum for researchers and practitioners to explore new Internet routing technologies. In particular, to work on challenges faced by routing systems in the Internet as pressure is placed on them by increasing demands from applications for predictable, differentiated, quality-enhanced connectivity, and service functions.
+This ongoing work has encouraged the idea of forming a “Routing in the Internet with Semantic Enhancements” (RISE) Proposed Research Group within the IRTF to provide a forum for researchers and practitioners to explore new Internet routing technologies. In particular, to work on challenges faced by routing systems in the Internet as pressure is placed on them by increasing demands from applications for predictable, differentiated, quality-enhanced connectivity, and service functions.
 
 A draft charter for this Proposed RG is presented in a separate document. In summary, RAISE would aim to:
 * Bring significant relevant research and outcomes to the IRTF for broader dissemination.
 * Identify existing and future challenges to the Internet routing systems.
-* Determine what the basis would be for deciding whether semantic routing and semantic addressing is viable.
+* Determine what the basis would be for deciding whether semantic routing and the associated semantic enhancements are viable.
 * Encourage research and debate into semantic routing systems and architectures both within the IRTF and via outreach to other conferences.
 
 More specifically, the work of the Proposed RG would be delivered by the research questions derived from draft-king-irtf-challenges-in-routing and set out in the draft charter. 
