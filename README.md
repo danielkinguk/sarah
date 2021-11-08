@@ -24,7 +24,7 @@ An Introduction to Semantic Routing
 * https://datatracker.ietf.org/doc/html/draft-farrel-irtf-introduction-to-semantic-routing
 
 Challenges for the Internet Routing Infrastructure Introduced by Changes in Address Semantics
-* https://datatracker.ietf.org/doc/html/draft-king-irtf-challenges-in-routing/
+* https://datatracker.ietf.org/doc/html/draft-king-irtf-challenges-in-routing
 
 A Survey of Semantic Internet Routing Techniques
 * https://datatracker.ietf.org/doc/html/draft-king-irtf-semantic-routing-survey
