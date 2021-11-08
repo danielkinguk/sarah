@@ -20,6 +20,9 @@ Sign-up via https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH where you can a
 ## IETF Internet-Drafts
 This section collects titles and a links for relevant Internet-Drafts
 
+An Introduction to Semantic Routing
+* https://datatracker.ietf.org/doc/html/draft-farrel-irtf-introduction-to-semantic-routing
+
 Challenges for the Internet Routing Infrastructure Introduced by Changes in Address Semantics
 * https://datatracker.ietf.org/doc/html/draft-king-irtf-challenges-in-routing/
 
