@@ -53,16 +53,19 @@ There has been some background work to bring together ideas and researchers in t
     * Semantic Address Routing and Hardware (SARAH) list,
         * https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH
 * Internet-Drafts
-    * “Challenges for the Internet Routing Infrastructure Introduced by Changes in Address Semantics”, 
+    * “An Introduction to Semantic Routing”
+        * An overview of the concept of semantic routing
+        * https://datatracker.ietf.org/doc/html/draft-farrel-irtf-introduction-to-semantic-routing/
+    * “Challenges for the Internet Routing Infrastructure Introduced by Changes in Address Semantics” 
         * Presents a set of research questions and issues to be considered when considering semantic routing and assocuated semantic enhancements.
         * https://datatracker.ietf.org/doc/html/draft-king-irtf-challenges-in-routing/
-    * “A Survey of Semantic Internet Routing Techniques”,
+    * “A Survey of Semantic Internet Routing Techniques”
         * A partial survey of recent and historic work on semantic routing and associated semantic enhancements.
         * https://datatracker.ietf.org/doc/html/draft-king-irtf-semantic-routing-survey/
-    * “Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report”,
+    * “Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report”
         * A report of the main issues discussed during the SARNET-21 workshop
         * https://datatracker.ietf.org/doc/html/draft-galis-irtf-sarnet21-report
-    * “Innovation in Internet Routing and Addressing”,
+    * “Innovation in Internet Routing and Addressing”
         * A call to arms for researchers in routing and addressing.
         * https://datatracker.ietf.org/doc/draft-iannone-routing-and-addressing-manifesto
 
