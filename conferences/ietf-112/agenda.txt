@@ -15,9 +15,8 @@ Mailing list: https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH
    Adrian Farrel, Old Dog Consulting
    5 minutes
 
-2. The ties that un-bind: decoupling IP from web services and sockets for robust addressing agility at CDN-scale
-   Vasileios Giotsas, Cloudflare Inc. and Lancaster University
-   https://dl.acm.org/doi/10.1145/3452296.3472922
+2. End-To-End Privacy for Identity & Location with IP
+   Gregor Haywood, St Andrews University
    20 minutes
 
 3. RICE: Remote Method Invocation in ICN
