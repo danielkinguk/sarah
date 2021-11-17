@@ -10,7 +10,7 @@ The panel was moderated by Zhe (David) Lou from Huawei Technologies.
 
 The panel comprised:
 * Paola Grosso (Director of the Graduate School of Informatics, University of Amsterdam)
-   * [Slides]() 
+   * [Slides](https://github.com/danielkinguk/sarah/blob/main/conferences/NIPAA-21/2021-11-01--PGrosso-NIPAA.PDF) 
 * Luis Contreras (Telefonica Research and Development)
    * [Slides](https://github.com/danielkinguk/sarah/blob/main/conferences/NIPAA-21/NIPAA%20-%20LM%20Contreras%20v0.pdf)
 * Adrian Farrel (Old Dog Consulting)
