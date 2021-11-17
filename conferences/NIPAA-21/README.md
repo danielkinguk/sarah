@@ -12,6 +12,6 @@ The panel comprised:
 * Paola Grosso (Director of the Graduate School of Informatics, University of Amsterdam)
    * [Slides]() 
 * Luis Contreras (Telefonica Research and Development)
-   * [Slides]()
+   * [Slides](https://github.com/danielkinguk/sarah/blob/main/conferences/NIPAA-21/NIPAA%20-%20LM%20Contreras%20v0.pdf)
 * Adrian Farrel (Old Dog Consulting)
    * [Slides](https://github.com/danielkinguk/sarah/blob/main/conferences/NIPAA-21/AdrianFarrel-NIPAA.pdf)
