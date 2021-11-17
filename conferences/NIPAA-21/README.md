@@ -14,4 +14,4 @@ The panel comprised:
 * Luis Contreras (Telefonica Research and Development)
    * [Slides]()
 * Adrian Farrel (Old Dog Consulting)
-   * [Slides]()
+   * [Slides](https://github.com/danielkinguk/sarah/blob/main/conferences/NIPAA-21/AdrianFarrel-NIPAA.pdf)
