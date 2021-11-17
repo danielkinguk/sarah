@@ -12,10 +12,11 @@ Sign-up via https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH where you can a
 * [IEEE HPSR 21](https://github.com/danielkinguk/sarah/tree/main/conferences/sarnet-21) - Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report
 * [IETF 111 side meeting](https://github.com/danielkinguk/sarah/tree/main/IETF-111) - Routing Research Challenges Arising from Evolving Beyond and Revitalizing the Internet
 * [Interim Workshop on Evolving Routing Security in the Internet](https://github.com/danielkinguk/sarah/edit/main/conferences/security-workshop) Virtual Event, Thursday 30th September 2021, 3pm UTC
-* [2nd Workshop on New Internetworking Protocols, Architecture and Algorithms (NIPAA-21)](https://nipaa21.wordpress.com/) Virtual Event, November 1st, 2021. Organized by IEEE ICNP 2021
+* [2nd Workshop on New Internetworking Protocols, Architecture and Algorithms (NIPAA-21)](https://github.com/danielkinguk/sarah/tree/main/conferences/NIPAA-21) Virtual Event, November 1st, 2021. Organized by IEEE ICNP 2021
+* [IETF 112 side meeting](https://github.com/danielkinguk/sarah/tree/main/conferences/ietf-112) - Service Routing and Addressing, November 10th, 2021
  
 ## Upcoming Conferences and Workshops Related to SARAH
-* [IETF 112 side meeting](https://github.com/danielkinguk/sarah/tree/main/conferences/ietf-112) - Service Routing and Addressing, November 10th, 2021
+
 
 ## IETF Internet-Drafts
 This section collects titles and a links for relevant Internet-Drafts
