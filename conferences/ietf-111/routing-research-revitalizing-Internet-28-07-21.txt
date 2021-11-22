@@ -1,0 +1,151 @@
+== Routing research challenges arising from evolving beyond and revitalizing the Internet ==
+
+Wednesday 28th July at 10am PDT (17.00 UTC, 18.00 BST)
+
+WebEx Info: https://htf-paris.my.webex.com/htf-paris.my-en/j.php?MTID=m9afa3695890745e767a666a27d6cd164
+
+Minutes: https://etherpad.wikimedia.org/p/routing-research-revitalizing-Internet-28-07-21
+
+This 90 minute side meeting can be seen on the IETF-111 wiki at https://trac.ietf.org/trac/ietf/meeting/wiki/111sidemeetings. 
+
+Agenda
+---------
+
+1. Introduction and opening remarks
+5 minutes 
+
+2. Revitalizing the Public Internet by Making it Extensible
+Scott Shenker (Berkeley)
+Related paper https://www.cs.princeton.edu/~jrex/papers/ei21.pdf
+20 minutes
+
+3. The Evolution of the Interplanetary Internet
+Scott Burleigh (IPNSIG.org)
+Related paper https://nanog.org/news-stories/nanog-tv/keynotes/keynote-the-evolution-of-the-interplanetary-internet/
+20 minutes
+
+4. Algebraic Analysis and Design of Vectoring Protocols
+João Sobrinho (University of Lisbon)
+Related paper https://dl.acm.org/doi/abs/10.1145/3387514.3405864
+20 minutes
+
+5. Open discussion on "Routing research challenges arising from evolving beyond and revitalizing the Internet"
+25 minutes
+
+Recording
+-------------
+
+Video of session: https://github.com/danielkinguk/sarah/blob/main/IETF-111/routing-research-revitalizing-internet-20210728.mp4
+
+WebEx chat log: https://github.com/danielkinguk/sarah/blob/main/IETF-111/webexChatWindow.txt
+
+Minutes 
+----------
+
+Adrian Farrel - Moderator
+
+At the start of the sesssion he outlined some of the questions to consider during the presentations, and for discussion at the end of presentations. 
+
+Routing Research Questions for Consideration
+
+• What are the benefits and drawbacks of applying new routing ideas to “limited domains”?
+• What are the impacts of new routing proposals on the existing routing infrastructure?
+• How can routing research be made independently verifiable and “reproducible”?
+• How do you contrast an entirely new routing mechanism with modifications to existing tools? What is the cost-benefit?
+• How well do different routing mechanisms scale and does it matter?
+• Where should research be discussed, and what needs to be standardised?
+• Should we make routing systems more secure, and how?
+
+
+Revitalizing the Public Internet by Making it Extensible - Scott Shenker (Berkeley)
+---------------------------------------------------------------------------------------------------
+
+Cedric: Who can deploy these software modules? Can I run my own modules?
+Scott Shenker: We expect that there are a set of approved/canonical EI services deployed by everyone. Providers can allow others to deploy custom ones, but that is a separate issue.
+Dirk Trossen: Rationalizing today's POP model is nice but said POP model is inherently limited (in vertical scale) by economic power. But how does EI really enable extensibility along the long tail or will it just again be limited to few economic players?
+Alia Atlas: Wondering about liveness and routing [and statefullness] between the SN?
+Scott Shenker: We are expecting/designing for peering between all pairs of SN, so the rotuing is direct connectivity over the underlay. Each client knows about a set of alternate SN's so failure lead to client's switching SNs. Services are responsible for ensuring state on SN is fault tolerant/replicated
+Alia Atlas: Having a more refined way of communicating into a cloud on different behaviors/usages on a per-packet basis might be interesting - but it has to be compelling from a business perspective and depend on the services.
+Toerless Eckert: Reminds me of the 1980th, where a common software platform was the key driver for the proliferation of the internet and development of the core distributed services on top of it.
+Antoine Fressancourt: More recently, QUIC has benefitted from Chrome and Youtube's support at the same time, making 20%+ of web traffic immediately eligible to using QUIC
+Dirk Kutscher: What would be the incentives for large incumbent WAN providers to enable this?
+Jari Arkko: This is very interesting, Scott. I had similar questions as Dirk T about the economics. Seems like this is potentially a shifting (or commoditizing as someone said) of some current service functions from the CDN and cloud world. I wonder what the forces are to make that happen.
+Dirk Trossen: Indeed, the economic incentives are hugely interesting here and I'm not sure there are good answers but potential for good research (I recall  some economic research being done for new research propositions like ICN).
+Jari Arkko: I was also interested in the secure enclave angle -- have worked on that myself and while the current systems leave some things to be desired (lots of programming and some performance and scale limits) there's some hope that in a few years we'll be able to do this at much bigger scale. There's a lot of potential, e.g., for protecting user data against the $LARGEDATAGRABBINGENTITIES :-)
+Antoine Fressancourt: I also think security, privacy and compliance in that regard could be a driver for adoption of such technologies. 
+Dirk Trossen: If EI could be positioned as 'democratizing service provisioning', regulatory intervention could shape the environment to build services in EI along the long tail (not just net neutrality but SL neutrality?) 
+Lin Han: How EI provide servieces that can only obtained by changing the behavior of L3. For example, QoS. The packet loss and latency majorly caused by the queue built up and congestion. Overlay solution or Layer3.5 can help?
+David Oran: Further specualtion... is there a role for 3rd parties like Conviva to factor the decisions about which Service paths are used for which users? It's really ugly that all those decisions today are done with ugly DNS tricks and/or overlay VPNs rather than natively with routing. I assume one of the goals of EI is to do a lot better than the current mass of glop for path selection/optimization?
+Antoine Fressancourt: Interestingly, in France the regulator tends to adopt a broad vision of neutrality, and it wants to encompass mobile platforms and app deployment ecosystem on those mobile platforms in its definition of "Net neutrality"
+Alia Atlas: that wouldn't necessarily drive deployment immediately into the public Internet - but having gear that can do it - and standard ways of communicating - would take down one aspect of the challenge.
+Hesham: How EI service architecture can be used by a host on the Internet to communicate with a device on a private network that does not use TCP/IP?
+Philip Eardley: Neutrality of access to EI / enhanced routing? seems a difficult argument to me
+Dirk Trossen: @Phil: more like neutrality to be able to utilize compute resources to provision SNs in EI
+Philip Eardley: @dirkT - I meant - it seems a stretch for a regulator to argue that neutrality is needed for something that is offering differentiated and enhanced services
+
+
+The Evolution of the Interplanetary Internet - Scott Burleigh (IPNSIG.org)
+-----------------------------------------------------------------------------------------
+
+Michael Richardson: Seems like interplanetary nodes have a lot in common with sleepy IoT nodes.
+Scott Burleigh: Probably true.  We've looked at IoT as another potential domain for DTN.  You can think of interplanetary internet as just another IoT, since the communicating entites are things rather than people.
+Eric Vyncke: "Clock alignment" in an area where relativity may apply.
+Scott Burleigh: It does, but because the communicating entities are moving at relativistically insignificant speeds -- and alignment at sub-second accuracy isn't needed -- it hasn't been a major issue to date.
+Cedric Westphal: Relativity kicks in in our GPS communications already, and we seem to manage...
+Eric Vyncke: About Interplanetary routing, with the small amont of energy/power/acceleration the location/latency/QoS are quite predictable.
+Scott Burleigh: Yes, given the information resources that we've been calling "contact plans"?
+Daniel King: How important will it be to have interoperable networking systems for interplanetary communication? Most of the current mesh LEO is proprietary, but other systems being planned with communicate with multiple layers (LEO and MEO), and potentially much lower orbit systems like UAVs. 
+Michael Richardson: but, the LEO clusters are all <100ms delay.  Is there a business case to develop space based DTN technology outside of NASA/ESA?  It's really interesting, but are there other places to leverage the same technology?
+Scott Burleigh: Space industry is going to happen at some point, and we think DTN will be helpful there.  But even terrestrially, DTN's tolerance of network partitioning has made it attractive to DoD and could be helpful for emergency communication in disasters.  There's also an argument for using DTN to provide some Internet services at reduced cost, but that would take some time to explain.
+Scott Burleigh: Daniel, good question.  We think the interconnection of communication resources belonging to multiple missions will reduce operational risk and improve data return, if done securely (which we think we can do).
+
+
+Algebraic Analysis and Design of Vectoring Protocols - João Sobrinho (University of Lisbon)
+----------------------------------------------------------------------------------------------------------------
+
+Daniel King: Does the algebraic approach only apply to link state protocols, what about distance vector? Do you also have some some application examples, beyond the theoretical? 
+Daniel King: An algebraic approach in a distributed system would also require signaling extensions? Is this something your team are experimenting with? 
+
+Further questions saved for the wider discussion. 
+
+
+Open discussion on "Routing research challenges arising from evolving beyond and revitalizing the Internet" 
+------------------------------------------------------------------------------------------------------------------------------------
+
+Toerless Eckert: What is the terrestrial applicability of this routing technique?
+João Sobrinho: We have [current system] insights on properties that are guaranteed with certain routing protocols, and if these are used on wireless networks and flying objects we have lot of properties for optimization, we have the tools for applying policies to inter-domain routing, in both cases we can find the policy path, but in terms of mathematics we can find the optimal path. 
+
+David Guzman: Can we say isotonicity is not just deterministic, but has probabilistic aspects?
+João Sobrinho: You could introduce probabilities in several domains, or you might want to use opportunistic routing too, especially in a wireless network. But isotonic is framed in deterministic, but still a powerful property not just related to routing, it can apply to distributed systems. For Isotonicity networks in a distributed system what I do locally can apply to my neighbors. 
+
+Adrian Farrel: A further question for our other speakers, does isotonicity apply to EI and interplanetary networks?
+Scott Burleigh: Opportunistic networking is applicable to interplanetary networks. It would be useful to investigate further. 
+João Sobrinho: For EI, and evolvability of the Internet, I have applied isotonicity for inter-domain routing, where incentives [for paths] are aligned with the social good. This is a little abstract [we can follow-up with concrete discussion].
+Scott Shenker: At the service layer we are trying to simplify routing by using direct peering, but this [isotonicity] line of research and impact on layer-3 is still significant.   
+
+Hesham Elbakoury: How can we use EI service layer architecture to allow hosts using IP/TCP mechanisms to communicate with non-IP nodes in IOT, in EI. 
+Scott Shenker: There is no magic, if an IOT does not have a  proxy then EI would not address this issue, we expect the IOT nodes that want to connect to wider Internet would have to go thru a proxy. I do think EI would provide tools for sophisticated proxies, including aggregation and compression. There will be no automatic transcription between service layer and  traditional IP networking. 
+Hesham Elbakoury: Maybe we need a service router that performs this translation. 
+Scott Shenker: Yes, we may have specialized network proxy or public proxy from the IOT network to the Internet. 
+
+Alex Galis: Does the extensibility of the EI overlay approach depend on the service node setup, topology, service node life cycle, and management. Who will do this?
+Scott Shenker: Let me step back a little, to address other questions from the [WebEx] chat, along similar lines. How EI is adopted and deployed, beyond the current testbeds and Clouds, we imagine that carriers themselves will deploy, so whoever uses EI will have service nodes that can be used by their hosts and run approved services. The topology would be established via direct peering, there are scaling issues that would need to be addressed. Connecting to other providers  would be done via IXPs, with common points and multiple connections. When new services are approved peering points would need to be setup, but these would be automatic with local domains being responsible for IXP and direct peering relationships. Thus, the EI topologies are relatively simple.  
+ 
+Daniel King: A question for João has isotonicity been implemented, if so for what application and do you have a comparative analysis with an existing routing system? If you’re using a distance vector approach, how do you deal with things like count-to-infinity?
+João Sobrinho: Currently this is an intellectual contribution we are trying to find a way to apply. If we take any of the existing distance vector protocols we could generalise them for an algebraic approach, so instead of lengths that would be < >, or equal, we would have any operation that we want to apply. We can use path vector or diffusing computations for count-to-infinity. This is an interesting problem, we need to look at a protocol, take Direct Sequence Distance Vector protocol, where waves of computations are used to compute paths, if a failure to compute a path occurs, you wait for the next. You don’t upgrade an existing route, to a worse route. The path vector could be algebraic, there would be an extension for the path computation and any potential loop would be dropped, actually multiple count-to-infinity solutions might be applied so you could test which you prefer, and which routing properties would be required. We have started work on this. 
+
+Lin Han: I understand EI can provide many services, but can it still offer traffic parameters like QOS if we dealing with layer-3.5
+Scott Shenker: Thanks for this question. We cannot do anything at layer-3.5 that changes behavior of layer-3, but we can have service like SD-WAN that can reuse lower-layer paths based on application requirements, including QOS. You can imagine service nodes that are interconnected via multiple links with varying properties and path selection is based on application requirements, but EI would not change lower-layer path behavior. 
+Lin Han: If I want granular path properties for end-to-end connections layer-3.5 does not assistance, its best-effort. 
+Scott Shenker: Yes, but. The service nodes could have specialized links with price points based on application requirements, so its reliant on underlay. 
+
+Alissa Cooper: A question for Scott Shenker, there was a spirited discussion in the chat regarding open access to edge DCs, I am curious on your view if this [open access] would be a pre-requisite for getting wider deployment of EI service nodes. If not, could you provide another level of incentive as to why interested parties might adopt the architecture. This applies to public and private operators that currently control everything themselves. 
+Scott Shenker: Thank you for asking the question, I was reading the chat and constructing my answer. Building on my previous comments, the eventual deployment would have operators providing service nodes for public services, via a social contract. They can also run private services, that is not publicly available. What are the incentives? If Cloud providers want to compete, they need to widely deploy POPs which are expensive. If flow termination was part of their basic service offering, they would not have to [widely deploy POPs]. If Facebook wanted a private service, they don’t need a POP but could pay others to offer their service, which provides revenue for other providers.  
+
+Closing comments from Adrian Farrel 
+-----------------------------------------------
+Firstly, thank you to our presenters for discussing some excellent topics. We have a varierty of areas for further dicussionm and investigation. We encourage follow-up discussions on the SARAH mailing list
+https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=SARAH&A=1
+
+From the WebEx chat we see several people mentioning this session should be repeated at future events. We will look into how and if this can be achieved. 
+
