@@ -17,6 +17,7 @@ Sign-up via https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SARAH where you can a
  
 ## Upcoming Conferences and Workshops Related to SARAH
 
+* [1st ACM SIGCOMM Workshop on Future of Internet Routing & Addressing (FIRA)](https://conferences.sigcomm.org/sigcomm/2022/workshop-fira.html) - August, 2022
 
 ## IETF Internet-Drafts
 This section collects titles and a links for relevant Internet-Drafts
@@ -30,6 +31,18 @@ Challenges for the Internet Routing Infrastructure Introduced by Changes in Addr
 A Survey of Semantic Internet Routing Techniques
 * https://datatracker.ietf.org/doc/html/draft-king-irtf-semantic-routing-survey
 
+Continuing to Evolve Internet Routing Beyond 'Mere' Reachability
+* https://datatracker.ietf.org/doc/draft-trossen-rtgwg-routing-beyond-reachability/
+
+Considerations for the use of SDN in Semantic Routing Networks
+* https://datatracker.ietf.org/doc/html/draft-boucadair-irtf-sdn-and-semantic-routing
+
+A Framework for QoS-Enabled Semantic Routing in Industrial Networks
+* https://datatracker.ietf.org/doc/html/draft-bellavista-semantic-sdn-mom
+
+Routing and Addressing Challenges Introduced by New Satellite Constellations
+* https://datatracker.ietf.org/doc/draft-kw-rtgwg-satellite-rtg-add-challanges/
+
 Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report
 * https://datatracker.ietf.org/doc/html/draft-galis-irtf-sarnet21-report
 
@@ -37,7 +50,7 @@ Innovation in Internet Routing and Addressing
 * https://datatracker.ietf.org/doc/draft-iannone-routing-and-addressing-manifesto
 
 ## Possible Proposed Research Group in the IRTF
-We are considering the possibility of a new Research Group in the IRTF. The working title is "Routing in the Internet with Semantic Enhancements” (RISE)
+We have put together a description of what work we consider to be in scope for the IRTF. The working title is "Routing in the Internet with Semantic Enhancements” (RISE)
 
 More details [here](https://github.com/danielkinguk/sarah/tree/main/RISE).
 
