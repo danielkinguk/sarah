@@ -49,7 +49,7 @@ Semantic Addressing and Routing for Future Networks (SARNET-21) Workshop Report
 Innovation in Internet Routing and Addressing
 * https://datatracker.ietf.org/doc/draft-iannone-routing-and-addressing-manifesto
 
-## Possible Proposed Research Group in the IRTF
+## Proposed Work in the IRTF
 We have put together a description of what work we consider to be in scope for the IRTF. The working title is "Routing in the Internet with Semantic Enhancements” (RISE)
 
 More details [here](https://github.com/danielkinguk/sarah/tree/main/RISE).
